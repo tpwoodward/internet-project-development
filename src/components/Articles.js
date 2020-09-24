@@ -1,6 +1,8 @@
 import React from "react"
 import Nav from "./Nav"
 
+import { Parallax } from "react-scroll-parallax"
+
 import { FaArrowRight } from "react-icons/fa"
 import { FaArrowLeft } from "react-icons/fa"
 
@@ -26,7 +28,9 @@ function Articles() {
               </div>
             </div>
           </div>
+          <Parallax className="scrolling-section" x={[-100, 0]}>
           <h1 className="display-1 text-right">Articles</h1>
+          </Parallax>
         </div>
       </div>
     </div>
