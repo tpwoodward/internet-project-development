@@ -93,6 +93,7 @@ function BMIModal(props) {
                 <Button variant="primary" onClick={handleClick}>
                   Calculate BMI
                 </Button>
+                </Form.Group>
               </Form>
             </Col>
             <Col>
