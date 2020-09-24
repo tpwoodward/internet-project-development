@@ -89,22 +89,19 @@ function BMIModal(props) {
                     onChange={handleWeight}
                   />
                 </Form.Group>
-                <Form.Group as={Row}>
-                <Button variant="primary" onClick={handleClick}>
-                  Calculate BMI
+                <Form.Group>
+                <Button variant="secondary" onClick={handleClick}>
+                  Calculate
                 </Button>
                 </Form.Group>
               </Form>
             </Col>
             <Col>
-              <p>{data ? JSON.stringify(data) : "Loading..."}</p>
+              <p>{data ? JSON.stringify(data) : "Press 'Calculate' to see your result"}</p>
             </Col>
           </Row>
         </Container>
       </Modal.Body>
-      <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
-      </Modal.Footer>
     </Modal>
   )
 }

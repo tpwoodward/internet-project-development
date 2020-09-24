@@ -102,20 +102,19 @@ function CaloriesModal(props) {
                     onChange={handleWeight}
                   />
                 </Form.Group>
-                <Button variant="primary" onClick={handleClick}>
-                  Calculate Calorie Requirements
-                </Button>
+                <Form.Group>
+                  <Button variant="secondary" onClick={handleClick}>
+                    Calculate
+                  </Button>
+                </Form.Group>
               </Form>
             </Col>
             <Col>
-              <p>{data ? JSON.stringify(data) : "Loading..."}</p>
+              <p>{data ? JSON.stringify(data) : "Press 'Calculate' to see your result"}</p>
             </Col>
           </Row>
         </Container>
       </Modal.Body>
-      <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
-      </Modal.Footer>
     </Modal>
   )
 }

@@ -7,7 +7,7 @@ function Header() {
       <Nav />
 
       <div id="intro-full">
-        <h1 className="display-1">Passion for Health</h1>
+        <h1 className="display-1" style={{marginLeft: 50 + 'px'}}>Passion for Health</h1>
         <div className="intro">
           <p>
             At Passion for Health, we prioritise education. We want you to know
