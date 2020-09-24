@@ -1,32 +1,10 @@
 import React from "react"
-import logo from "../logo.svg"
+import Nav from "./Nav"
 
 function Header() {
   return (
     <header className="App-header">
-      <div className="container mw-100 fixed-top">
-        <div className="row">
-          <div className="col-{breakpoint}-auto">
-          <a className="navbar-brand" id="nav-left" href="/">
-              <img src={logo} className="App-logo" alt="logo" />
-            </a>
-          </div>
-          <div className="col"></div>
-          <div className="col-{breakpoint}-auto">
-            <nav className="navbar" id="nav-right">
-              <a className="nav-link text-dark" href="#articles">
-                Articles
-              </a>
-              <a className="nav-link text-dark" href="#your-health">
-                Your Health
-              </a>
-              <a className="nav-link text-dark" href="#help">
-                Help
-              </a>
-            </nav>
-          </div>
-        </div>
-      </div>
+      <Nav />
 
       <div id="intro-full">
         <h1 className="display-1">Passion for Health</h1>

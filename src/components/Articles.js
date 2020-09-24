@@ -1,5 +1,5 @@
 import React from "react"
-import { Parallax } from "react-scroll-parallax"
+import Nav from "./Nav"
 
 import { FaArrowRight } from "react-icons/fa"
 import { FaArrowLeft } from "react-icons/fa"
@@ -7,8 +7,9 @@ import { FaArrowLeft } from "react-icons/fa"
 function Articles() {
   return (
     <div>
-      <Parallax className="scrolling-section" y={[0, -50]}>
-        <div id="articles">
+      <Nav />
+      <div id="articles">
+        <div className="Inner">
           <div className="container mw-100">
             <div className="row">
               <div className="col subsectionbtn text-left">
@@ -27,7 +28,7 @@ function Articles() {
           </div>
           <h1 className="display-1 text-right">Articles</h1>
         </div>
-      </Parallax>
+      </div>
     </div>
   )
 }
