@@ -28,7 +28,7 @@ function Articles() {
               </div>
             </div>
           </div>
-          <Parallax className="scrolling-section" x={[-100, 0]}>
+          <Parallax className="scrolling-section" x={[10, -20]}>
           <h1 className="display-1 text-right">Articles</h1>
           </Parallax>
         </div>

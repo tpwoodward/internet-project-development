@@ -1,5 +1,6 @@
 import React from "react"
 import Nav from "./Nav"
+import { Parallax } from "react-scroll-parallax"
 
 function Header() {
   return (
@@ -7,7 +8,11 @@ function Header() {
       <Nav />
 
       <div id="intro-full">
-        <h1 className="display-1" style={{marginLeft: 50 + 'px'}}>Passion for Health</h1>
+        <Parallax className="scrolling-section" y={[60, -50]}>
+          <h1 className="display-1" style={{ marginLeft: 50 + "px" }}>
+            Passion for Health
+          </h1>
+        </Parallax>
         <div className="intro">
           <p>
             At Passion for Health, we prioritise education. We want you to know
@@ -18,16 +23,20 @@ function Header() {
             with reading some of our educational articles.
           </p>
         </div>
-        <div className="intro2">
-          <a href="#your-health" className="text-dark">
-            Calculate your health
-          </a>
-        </div>
-        <div className="intro2">
-          <a href="#articles" className="text-dark">
-            Read helpful articles
-          </a>
-        </div>
+        <Parallax className="scrolling-section" y={[-50, 100]}>
+          <div className="intro2">
+            <a href="#your-health" className="text-dark">
+              Calculate your health
+            </a>
+          </div>
+        </Parallax>
+        <Parallax className="scrolling-section" y={[-50, 200]}>
+          <div className="intro2">
+            <a href="#articles" className="text-dark">
+              Read helpful articles
+            </a>
+          </div>
+        </Parallax>
       </div>
     </header>
   )
