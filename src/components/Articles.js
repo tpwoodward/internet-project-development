@@ -29,7 +29,7 @@ function Articles() {
             </div>
           </div>
           <Parallax className="scrolling-section" x={[10, -20]}>
-          <h1 className="display-1 text-right">Articles</h1>
+            <h1 className="display-1 text-right">Articles</h1>
           </Parallax>
         </div>
       </div>
