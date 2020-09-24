@@ -1,0 +1,106 @@
+.App-logo {
+  height: 3em;
+  padding: none;
+  margin: none;
+}
+
+.App-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 0.75em;
+}
+
+.App-header,
+#articles,
+#your-health,
+#help,
+.Article {
+  height: 120vh;
+}
+
+.App-header {
+  background-image: url("../media/pexels-victor-freitas-841130.jpg");
+  background-size: cover;
+  color: white;
+}
+
+#articles {
+  background-image: url("../media/pexels-ella-olsson-1640777.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.Article {
+  background-image: url("../media/pexels-ella-olsson-1640777-red.jpg");
+  background-size: cover;
+  color: white;
+}
+
+#your-health {
+  background-image: url("../media/pexels-pixabay-40751.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.HealthCalc {
+  background-image: url("../media/pexels-pixabay-40751-red.jpg");
+  background-size: cover;
+  color: white;
+}
+
+#help {
+  background-image: url("../media/pexels-andrea-piacquadio-3756165.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.intro {
+  background-color: rgba(200, 50, 50, 0.65);
+  margin-right: 25%;
+  border-radius: 0 12px 12px 0;
+  padding: 1em 0 0.25em 0;
+}
+
+.intro2 {
+  background-color: rgba(200, 200, 200, 0.8);
+  margin: 1em 25% 0 50%;
+  border-radius: 0 0 12px 12px;
+  padding: 1em 0 1em 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.arrow {
+  font-size: 5em;
+}
+
+.subsectionbtn {
+  color: white;
+  text-align: center;
+}
+
+
+#intro-full {
+  padding: 40vh  0  0 3em;
+}
+
+#nav-left {
+  background-color: rgba(200, 200, 200, 0.9);
+  border-radius: 0 0 12px;
+}
+
+#nav-right {
+  background-color: rgba(200, 200, 200, 0.9);
+  border-radius: 0 0 0 12px;
+}
+
+.HealthCalcBtn {
+  font-size: 10vw;
+  margin: 20px 0;
+}
+
+.HealthTextBtn {
+  margin-bottom: 1em;
+}
