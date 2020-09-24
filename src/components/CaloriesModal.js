@@ -69,7 +69,6 @@ function CaloriesModal(props) {
         <Container fluid>
           <Row>
             <Col>
-              <h4>Enter your measurements below</h4>
               <Form>
                 <Form.Group>
                   <Form.Label>Age</Form.Label>

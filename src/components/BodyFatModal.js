@@ -85,7 +85,6 @@ function BodyFatModal(props) {
       <Container fluid>
         <Row>
           <Col>
-            <h4>Enter your measurements below</h4>
             <Form>
               <Form.Group>
                 <Form.Label>Waist circumference (cm)</Form.Label>
