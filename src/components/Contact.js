@@ -16,7 +16,6 @@ function Contact() {
             </div>
             <div className="col"></div>
             <div className="col-5">
-              <h1 className="display-2"></h1>
               <Form>
                 <Form.Group controlId="formBasicEmail">
                   <Form.Control
