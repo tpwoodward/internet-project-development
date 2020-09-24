@@ -90,12 +90,6 @@ function BMIModal(props) {
                   />
                 </Form.Group>
                 <Form.Group as={Row}>
-                  <Form.Label as="legend">
-                    Receive tips based on BMI?
-                  </Form.Label>
-                  <Form.Check type="radio" label="Yes" />
-                  <Form.Check type="radio" label="No" />
-                </Form.Group>
                 <Button variant="primary" onClick={handleClick}>
                   Calculate BMI
                 </Button>
