@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.b8bca769.chunk.css",
+    "main.css": "/static/css/main.96152ced.chunk.css",
     "main.js": "/static/js/main.c0867435.chunk.js",
     "main.js.map": "/static/js/main.c0867435.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.765762e2.js",
@@ -9,10 +9,10 @@
     "static/js/2.6d7f820e.chunk.js": "/static/js/2.6d7f820e.chunk.js",
     "static/js/2.6d7f820e.chunk.js.map": "/static/js/2.6d7f820e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d7bab6aea8da5424411a50fd0fef97ab.js": "/precache-manifest.d7bab6aea8da5424411a50fd0fef97ab.js",
+    "precache-manifest.bcb4bb7dfd75943f65697d05e4dec797.js": "/precache-manifest.bcb4bb7dfd75943f65697d05e4dec797.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.b8bca769.chunk.css.map": "/static/css/main.b8bca769.chunk.css.map",
+    "static/css/main.96152ced.chunk.css.map": "/static/css/main.96152ced.chunk.css.map",
     "static/js/2.6d7f820e.chunk.js.LICENSE.txt": "/static/js/2.6d7f820e.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/static/media/logo.630eafae.svg",
     "static/media/master.scss": "/static/media/pexels-victor-freitas-841130.08f04a28.jpg"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.765762e2.js",
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.6d7f820e.chunk.js",
-    "static/css/main.b8bca769.chunk.css",
+    "static/css/main.96152ced.chunk.css",
     "static/js/main.c0867435.chunk.js"
   ]
 }
