@@ -90,14 +90,18 @@ function BMIModal(props) {
                   />
                 </Form.Group>
                 <Form.Group>
-                <Button variant="secondary" onClick={handleClick}>
-                  Calculate
-                </Button>
+                  <Button variant="secondary" onClick={handleClick}>
+                    Calculate
+                  </Button>
                 </Form.Group>
               </Form>
             </Col>
             <Col>
-              <p>{data ? JSON.stringify(data) : "Press 'Calculate' to see your result"}</p>
+              <p>
+                {data
+                  ? JSON.stringify(data)
+                  : "Press 'Calculate' to see your result"}
+              </p>
             </Col>
           </Row>
         </Container>

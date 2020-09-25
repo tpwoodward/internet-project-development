@@ -12,7 +12,6 @@ import CaloriesModal from "./CaloriesModal"
 
 import { FaArrowLeft } from "react-icons/fa"
 
-
 function HealthCalc() {
   const [bodyFatModalShow, setBodyFatModalShow] = React.useState(false)
   const [bmiModalShow, setBmiModalShow] = React.useState(false)

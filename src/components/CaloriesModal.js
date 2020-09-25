@@ -114,7 +114,11 @@ function CaloriesModal(props) {
               </Form>
             </Col>
             <Col>
-              <p>{data ? JSON.stringify(data) : "Press 'Calculate' to see your result"}</p>
+              <p>
+                {data
+                  ? JSON.stringify(data)
+                  : "Press 'Calculate' to see your result"}
+              </p>
             </Col>
           </Row>
         </Container>
