@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Note for Dan
+
+Hi Dan! Please run "npm install" in the terminal before running "npm start" as node modules were removed to allow for a smooth upload to Blackboard with a smaller file size.
+
 ## Available Scripts
 
 In the project directory, you can run:
