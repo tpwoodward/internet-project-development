@@ -12,7 +12,7 @@ function BodyFatModal(props) {
   const [data, setData] = useState()
 
   const [waist, setWaist] = useState(0)
-  const [gender, setGender] = useState(0)
+  const [gender, setGender] = useState()
   const [neck, setNeck] = useState(0)
   const [height, setHeight] = useState(0)
   const [hip, setHip] = useState(0)
@@ -97,9 +97,13 @@ function BodyFatModal(props) {
                   <Form.Label>Gender</Form.Label>
                   <Form.Control
                     type="string"
+                    as="select"
                     value={gender}
                     onChange={handleGender}
-                  />
+                  >
+                    <option>Male</option>
+                    <option>Female</option>
+                  </Form.Control>
                 </Form.Group>
                 <Form.Label>Neck circumference (cm)</Form.Label>
                 <Form.Group>
@@ -150,7 +154,11 @@ function BodyFatModal(props) {
               </Form>
             </Col>
             <Col>
-              <p>{data ? JSON.stringify(data) : "Press 'Calculate' to see your result"}</p>
+              <p>
+                {data
+                  ? JSON.stringify(data)
+                  : "Press 'Calculate' to see your result"}
+              </p>
             </Col>
           </Row>
         </Container>

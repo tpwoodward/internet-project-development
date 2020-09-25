@@ -13,7 +13,7 @@ function CaloriesModal(props) {
 
   const [age, setAge] = useState(0)
   const [height, setHeight] = useState(0)
-  const [gender, setGender] = useState(0)
+  const [gender, setGender] = useState()
   const [weight, setWeight] = useState(0)
 
   const handleAge = (e) => {
@@ -90,9 +90,13 @@ function CaloriesModal(props) {
                   <Form.Label>Gender</Form.Label>
                   <Form.Control
                     type="string"
+                    as="select"
                     value={gender}
                     onChange={handleGender}
-                  />
+                  >
+                    <option>Male</option>
+                    <option>Female</option>
+                  </Form.Control>
                 </Form.Group>
                 <Form.Label>Weight (kg)</Form.Label>
                 <Form.Group>
