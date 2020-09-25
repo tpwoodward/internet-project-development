@@ -14,42 +14,43 @@
   height: 5vh;
 }
 
+.Inner {
+  padding: 30vh 50px;
+}
+
+// Section height -----------------------------------------------------------------
+
 .App-header,
 #articles,
 #your-health,
-.Article {
+.Article,
+.HealthCalc,
+.Help {
   height: 100vh;
+  background-size: cover;
+  color: white;
 }
+
+// Background images -----------------------------------------------------------------
 
 .App-header {
   background-image: url("../media/pexels-victor-freitas-841130.jpg");
-  background-size: cover;
-  color: white;
 }
 
 #articles {
   background-image: url("../media/pexels-ella-olsson-1640777.jpg");
-  background-size: cover;
-  color: white;
 }
 
 .Article {
   background-image: url("../media/pexels-ella-olsson-1640777-red.jpg");
-  background-size: cover;
-  color: white;
 }
 
 #your-health {
   background-image: url("../media/pexels-pixabay-40751.jpg");
-  background-size: cover;
-  color: white;
 }
 
 .HealthCalc {
   background-image: url("../media/pexels-pixabay-40751-red.jpg");
-  background-size: cover;
-  color: white;
-  height: 100vh;
 }
 
 #help {
@@ -61,10 +62,9 @@
 
 .Help {
   background-image: url("../media/pexels-andrea-piacquadio-3756165-red.jpg");
-  background-size: cover;
-  color: white;
-  height: 100vh;
 }
+
+// Header content -----------------------------------------------------------------
 
 #intro-full {
   padding-top: 40vh;
@@ -86,14 +86,7 @@
   text-align: center;
 }
 
-.arrow {
-  font-size: 5em;
-}
-
-.subsectionbtn {
-  color: white;
-  text-align: center;
-}
+// Buttons and icons -----------------------------------------------------------------
 
 #nav-left {
   background-color: rgba(200, 200, 200, 0.75);
@@ -105,7 +98,17 @@
   border-radius: 0 0 0 12px;
 }
 
-.HealthCalcBtn {
+.arrow {
+  font-size: 5em;
+}
+
+.subsectionbtn {
+  color: white;
+  text-align: center;
+}
+
+.HealthCalcBtn,
+.HealthCalcIcon {
   margin: 20px 0;
 }
 
@@ -116,8 +119,4 @@
 
 .HealthTextBtn {
   margin-bottom: 1em;
-}
-
-.Inner {
-  padding: 30vh 50px;
 }
