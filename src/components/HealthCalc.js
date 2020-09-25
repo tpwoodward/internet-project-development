@@ -29,7 +29,7 @@ function HealthCalc() {
               </a>
             </div>
             <div className="col">
-              <FaWeight className="HealthCalcBtn text-light" />
+              <FaWeight className="HealthCalcIcon text-light" />
               <br />
               <Button
                 variant="light"
@@ -49,7 +49,7 @@ function HealthCalc() {
               </p>
             </div>
             <div className="col">
-              <AiOutlinePercentage className="HealthCalcBtn text-light" />
+              <AiOutlinePercentage className="HealthCalcIcon text-light" />
               <br />
               <Button
                 variant="light"
@@ -70,7 +70,7 @@ function HealthCalc() {
               </p>
             </div>
             <div className="col">
-              <FaChartPie className="HealthCalcBtn text-light" />
+              <FaChartPie className="HealthCalcIcon text-light" />
               <br />
               <Button
                 variant="light"
