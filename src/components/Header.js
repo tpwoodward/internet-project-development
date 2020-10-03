@@ -24,10 +24,10 @@ function Header() {
           </p>
         </div>
         <Parallax className="scrolling-section" y={[-50, 100]}>
-          <div className="intro2">
-            <a href="#your-health" className="text-dark">
+          <div className="intro3">
+            <button href="#your-health" className="text-dark">
               Calculate your health
-            </a>
+            </button>
           </div>
         </Parallax>
         <Parallax className="scrolling-section" y={[-50, 200]}>
