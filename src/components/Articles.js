@@ -3,8 +3,8 @@ import Nav from "./Nav"
 
 import { Parallax } from "react-scroll-parallax"
 
-import { FaArrowRight } from "react-icons/fa"
-import { FaArrowLeft } from "react-icons/fa"
+import { BiRun } from "react-icons/bi"
+import { BiRestaurant } from "react-icons/bi"
 
 function Articles() {
   return (
@@ -12,24 +12,24 @@ function Articles() {
       <Nav />
       <div id="articles">
         <div className="Inner">
-          <div className="container mw-100">
-            <div className="row">
-              <div className="col subsectionbtn text-left">
-                <a href="/hiit-vs-liss" className="arrow text-white">
-                  <FaArrowLeft />
-                </a>
-                <p>HIIT vs LISS</p>
-              </div>
-              <div className="col subsectionbtn text-right">
-                <a href="/what-are-macros" className="arrow text-white">
-                  <FaArrowRight />
-                </a>
-                <p>What are Macros?</p>
+          <Parallax className="scrolling-section" x={[10, -10]}>
+            <h1 className="display-1 text-center">Articles</h1>
+            <div className="container-fluid">
+              <div className="row">
+                <div className="col text-left">
+                  <a href="/hiit-vs-liss" className="text-white">
+                    <BiRun className="arrow" />
+                    <p>HIIT vs LISS</p>
+                  </a>
+                </div>
+                <div className="col text-right">
+                  <a href="/what-are-macros" className="text-white">
+                    <BiRestaurant className="arrow" />
+                    <p>What are Macros?</p>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-          <Parallax className="scrolling-section" x={[10, -20]}>
-            <h1 className="display-1 text-right">Articles</h1>
           </Parallax>
         </div>
       </div>

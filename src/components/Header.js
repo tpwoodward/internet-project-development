@@ -13,7 +13,7 @@ function Header() {
             Passion for Health
           </h1>
         </Parallax>
-        <div className="intro">
+        <div className="intro text-white">
           <p>
             At Passion for Health, we prioritise education. We want you to know
             how you're holding up and what your next fitness goals can be!
@@ -24,18 +24,14 @@ function Header() {
           </p>
         </div>
         <Parallax className="scrolling-section" y={[-50, 100]}>
-          <div className="intro3">
-            <button href="#your-health" className="text-dark">
+            <a href="#your-health" className="nav-link text-dark intro2">
               Calculate your health
-            </button>
-          </div>
+            </a>
         </Parallax>
         <Parallax className="scrolling-section" y={[-50, 200]}>
-          <div className="intro2">
-            <a href="#articles" className="text-dark">
+            <a href="#articles" className="nav-link text-dark intro2">
               Read helpful articles
             </a>
-          </div>
         </Parallax>
       </div>
     </header>

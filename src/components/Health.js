@@ -1,6 +1,6 @@
 import React from "react"
 import { Parallax } from "react-scroll-parallax"
-import { FaArrowRight } from "react-icons/fa"
+import { BiCalculator } from "react-icons/bi"
 
 function Health() {
   return (
@@ -9,13 +9,14 @@ function Health() {
         <div className="Inner">
           <Parallax className="scrolling-section" y={[200, -200]}>
             <h1 className="display-1">Your Health</h1>
-          </Parallax>
-          <div className="subsectionbtn text-right">
-            <a href="/health-calc" className="arrow text-white">
-              <FaArrowRight />
+            <div className="text-right">
+            <a href="/health-calc" className="text-white">
+              <BiCalculator className="arrow"/>
+              <p>Calculate Health</p>
             </a>
-            <p>Calculate Health</p>
           </div>
+          </Parallax>
+          
         </div>
       </div>
     </div>
