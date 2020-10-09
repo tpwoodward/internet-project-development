@@ -10,7 +10,7 @@ import BMIModal from "./BMIModal"
 import BodyFatModal from "./BodyFatModal"
 import CaloriesModal from "./CaloriesModal"
 
-import { FaArrowLeft } from "react-icons/fa"
+import { BiLeftArrowAlt } from "react-icons/bi"
 
 function HealthCalc() {
   const [bodyFatModalShow, setBodyFatModalShow] = React.useState(false)
@@ -24,11 +24,11 @@ function HealthCalc() {
           <div className="row">
             <div className="col-1">
               <a href="/" className="arrow text-white">
-                <FaArrowLeft />
+                <BiLeftArrowAlt />
               </a>
             </div>
             <div className="col">
-              <FaWeight className="HealthCalcIcon text-light" />
+              <FaWeight className="HealthCalcIcon text-white" />
               <br />
               <Button
                 variant="light"
@@ -41,14 +41,14 @@ function HealthCalc() {
                 show={bmiModalShow}
                 onHide={() => setBmiModalShow(false)}
               />
-              <p>
+              <p className="text-white">
                 Your Body Mass Index (BMI) describes your height-to-weight
                 ratio.
                 <br />A healthy BMI is between 18 and 25.
               </p>
             </div>
             <div className="col">
-              <AiOutlinePercentage className="HealthCalcIcon text-light" />
+              <AiOutlinePercentage className="HealthCalcIcon text-white" />
               <br />
               <Button
                 variant="light"
@@ -61,7 +61,7 @@ function HealthCalc() {
                 show={bodyFatModalShow}
                 onHide={() => setBodyFatModalShow(false)}
               />
-              <p>
+              <p className="text-white">
                 While BMI can give you a rough idea of how healthy you are, it
                 doesn't consider people with a high level of muscle mass.
                 Therefore, a body fat percentage estimate gives an indication of
@@ -69,7 +69,7 @@ function HealthCalc() {
               </p>
             </div>
             <div className="col">
-              <FaChartPie className="HealthCalcIcon text-light" />
+              <FaChartPie className="HealthCalcIcon text-white" />
               <br />
               <Button
                 variant="light"
@@ -82,7 +82,7 @@ function HealthCalc() {
                 show={caloriesModalShow}
                 onHide={() => setCaloriesModalShow(false)}
               />
-              <p>
+              <p className="text-white">
                 If you are happy with your weight, you can calculate your
                 maintenance calorie intake based on exercise levels. If you need
                 to gain or lose weight, you would need to be in a caloric
