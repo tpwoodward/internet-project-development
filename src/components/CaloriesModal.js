@@ -107,25 +107,6 @@ function CaloriesModal(props) {
                   />
                 </Form.Group>
                 <Form.Group>
-                <Form.Label>Exercise level</Form.Label>
-                <Form.Control as="select">
-                  <option>Sedentary: little or no exercise</option>
-                  <option>Exercise 1-3 times/week</option>
-                  <option>Exercise 4-5 times/week</option>
-                  <option>Daily exercise or intense exercise 3-4 times/week</option>
-                  <option>Intense exercise 6-7 times/week</option>
-                  <option>Very intense exercise daily, or physical job</option>
-                </Form.Control>
-                </Form.Group>
-                <Form.Group>
-                <Form.Label>Goals</Form.Label>
-                <Form.Control as="select">
-                  <option>Maintain weight</option>
-                  <option>Weight loss</option>
-                  <option>Weight gain</option>
-                </Form.Control>
-                </Form.Group>
-                <Form.Group>
                   <Button variant="secondary" onClick={handleClick}>
                     Calculate
                   </Button>
@@ -133,10 +114,46 @@ function CaloriesModal(props) {
               </Form>
             </Col>
             <Col>
+            <p>
+                {data
+                  ? console.log(data.data)
+                  : null}
+              </p>
+              <h5>BMR</h5>
               <p>
                 {data
-                  ? JSON.stringify(data)
-                  : "Press 'Calculate' to see your result"}
+                  ? console.log(data.data.goals["BMR"])
+                  : null}
+              </p>
+              <h5>Exercise 1-3 times/week</h5>
+              <p>
+                {data
+                  ? JSON.stringify(data.data["Exercise 1-3 times/week"])
+                  : null}
+              </p>
+              <h5>Exercise 4-5 times/week</h5>
+              <p>
+                {data
+                  ? JSON.stringify(data.data["Exercise 4-5 times/week"])
+                  : null}
+              </p>
+              <h5>Daily exercise or intense exercise 3-4 times/week</h5>
+              <p>
+                {data
+                  ? JSON.stringify(data.data["Daily exercise or intense exercise 3-4 times/week"])
+                  : null}
+              </p>
+              <h5>Intense exercise 6-7 times/week</h5>
+              <p>
+                {data
+                  ? JSON.stringify(data.data["Intense exercise 6-7 times/week"])
+                  : null}
+              </p>
+              <h5>Very intense exercise daily, or physical job</h5>
+              <p>
+                {data
+                  ? JSON.stringify(data.data["Very intense exercise daily, or physical job"])
+                  : null}
               </p>
             </Col>
           </Row>
