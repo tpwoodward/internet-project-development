@@ -114,36 +114,31 @@ function CaloriesModal(props) {
               </Form>
             </Col>
             <Col>
+            <h3 className="text-dark">Result</h3>
+            {data ? (
+              <>
               <h5>Exercise 1-3 times/week</h5>
               <p>
-                {data
-                  ? JSON.stringify(data.data["Exercise 1-3 times/week"])
-                  : null}
+                {JSON.stringify(data.data["Exercise 1-3 times/week"])}
               </p>
               <h5>Exercise 4-5 times/week</h5>
               <p>
-                {data
-                  ? JSON.stringify(data.data["Exercise 4-5 times/week"])
-                  : null}
+                {JSON.stringify(data.data["Exercise 4-5 times/week"])}
               </p>
               <h5>Daily exercise or intense exercise 3-4 times/week</h5>
               <p>
-                {data
-                  ? JSON.stringify(data.data["Daily exercise or intense exercise 3-4 times/week"])
-                  : null}
+                {JSON.stringify(data.data["Daily exercise or intense exercise 3-4 times/week"])}
               </p>
               <h5>Intense exercise 6-7 times/week</h5>
               <p>
-                {data
-                  ? JSON.stringify(data.data["Intense exercise 6-7 times/week"])
-                  : null}
+                {JSON.stringify(data.data["Intense exercise 6-7 times/week"])}
               </p>
               <h5>Very intense exercise daily, or physical job</h5>
               <p>
-                {data
-                  ? JSON.stringify(data.data["Very intense exercise daily, or physical job"])
-                  : null}
+                {JSON.stringify(data.data["Very intense exercise daily, or physical job"])}
               </p>
+              </>
+            ) : "Press 'Calculate' to see your result"}
             </Col>
           </Row>
         </Container>

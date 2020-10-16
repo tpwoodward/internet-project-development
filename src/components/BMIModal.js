@@ -98,24 +98,22 @@ function BMIModal(props) {
             </Col>
             <Col>
             <h3 className="text-dark">Result</h3>
+            {data ? (
+              <>
             <h5>BMI</h5>
               <p>
-                {data
-                  ? JSON.stringify(data.bmi)
-                  : "Press 'Calculate' to see your result"}
+                {JSON.stringify(data.bmi)}
               </p> 
               <h5>Health</h5>
               <p>
-                {data
-                  ? JSON.stringify(data.health)
-                  : "Press 'Calculate' to see your result"}
+                {JSON.stringify(data.health)}
               </p>
               <h5>Healthy BMI Range</h5>
               <p>
-                {data
-                  ? JSON.stringify(data.healthy_bmi_range)
-                  : "Press 'Calculate' to see your result"}
+                {JSON.stringify(data.healthy_bmi_range)}
               </p>
+              </>
+            ) : "Press 'Calculate' to see your result"}
             </Col>
           </Row>
         </Container>
