@@ -114,17 +114,6 @@ function CaloriesModal(props) {
               </Form>
             </Col>
             <Col>
-            <p>
-                {data
-                  ? console.log(data.data)
-                  : null}
-              </p>
-              <h5>BMR</h5>
-              <p>
-                {data
-                  ? console.log(data.data.goals["BMR"])
-                  : null}
-              </p>
               <h5>Exercise 1-3 times/week</h5>
               <p>
                 {data
