@@ -154,27 +154,31 @@ function BodyFatModal(props) {
               </Form>
             </Col>
             <Col>
-            <h3 className="text-dark">Result</h3>
-            {data ? (
-              <>
-              <h5>Body Fat (U.S. Navy Method)</h5>
-              <p>
-                {Number(JSON.stringify(data["Body Fat (U.S. Navy Method)"])).toFixed(0)}
-              </p>
-              <h5>Body Fat Mass</h5>
-              <p>
-                {Number(JSON.stringify(data["Body Fat Mass"])).toFixed(0)}
-              </p>
-              <h5>Lean Body Mass</h5>
-              <p>
-                {Number(JSON.stringify(data["Lean Body Mass"])).toFixed(0)}
-              </p>
-              <h5>Body Fat (BMI method)</h5>
-              <p>
-                {Number(JSON.stringify(data["Body Fat (BMI method)"])).toFixed(0)}
-              </p>
-              </>
-            ) : "Press 'Calculate' to see your result"}
+              <h3 className="text-dark">Result</h3>
+              {data ? (
+                <>
+                  <p>
+                    Remember, there is no one way to accurately gauge your body
+                    fat percentage, so here are your results from two different
+                    tests!
+                  </p>
+
+                  <h5>U.S. Navy Method</h5>
+                  <p>
+                    {Number(
+                      JSON.stringify(data["Body Fat (U.S. Navy Method)"])
+                    ).toFixed(0)}
+                  </p>
+                  <h5>BMI method</h5>
+                  <p>
+                    {Number(
+                      JSON.stringify(data["Body Fat (BMI method)"])
+                    ).toFixed(0)}
+                  </p>
+                </>
+              ) : (
+                "Press 'Calculate' to see your result"
+              )}
             </Col>
           </Row>
         </Container>
