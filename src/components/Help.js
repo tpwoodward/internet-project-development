@@ -5,7 +5,7 @@ function Help() {
   return (
     <div id="help">
       <div className="Inner">
-          <h1 className="display-1 text-left">Help</h1>
+          <h1 className="display-1">Help</h1>
         <div className="container-fluid">
           <div className="row">
             <div className="col text-left">

@@ -6,7 +6,7 @@ function Health() {
     <div>
       <div id="your-health">
         <div className="Inner">
-            <h1 className="display-1 text-left">Your Health</h1>
+            <h1 className="display-1">Your Health</h1>
           <div className="text-right">
             <a href="/health-calc" className="text-white">
               <FaArrowRight className="arrow"/>

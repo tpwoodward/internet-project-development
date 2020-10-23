@@ -5,9 +5,8 @@ function Header() {
   return (
     <header className="App-header">
       <Nav />
-
       <div id="intro-full">
-          <h1 className="display-1" style={{ marginLeft: 50 + "px" }}>
+          <h1 style={{ marginLeft: 50 + "px" }}>
             Passion for Health
           </h1>
         <div className="intro text-white">
