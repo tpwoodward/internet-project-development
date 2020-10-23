@@ -23,7 +23,7 @@ function HealthCalc() {
         <div className="container mw-100 text-center">
           <div className="row">
             <div className="col-1">
-              <a href="/" className="arrow text-white">
+              <a className="arrow text-white">
                 <BiLeftArrowAlt />
               </a>
             </div>

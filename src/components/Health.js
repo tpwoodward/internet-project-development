@@ -10,7 +10,7 @@ function Health() {
           <Parallax className="scrolling-section" y={[200, -200]}>
             <h1 className="display-1">Your Health</h1>
             <div className="text-right">
-            <a href="/health-calc" className="text-white">
+            <a className="text-white">
               <BiCalculator className="arrow"/>
               <p>Calculate Health</p>
             </a>

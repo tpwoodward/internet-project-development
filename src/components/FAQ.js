@@ -20,7 +20,7 @@ function FAQ() {
               </p>
             </div>
             <div className="col-2 subsectionbtn text-right">
-              <a href="/" className="arrow text-white">
+              <a className="arrow text-white">
                 <BiRightArrowAlt />
               </a>
             </div>

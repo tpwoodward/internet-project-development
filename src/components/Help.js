@@ -13,13 +13,13 @@ function Help() {
           <div className="container-fluid">
           <div className="row">
             <div className="col text-left">
-              <a href="/faq" className="text-white">
+              <a className="text-white">
                 <BiQuestionMark className="arrow"/>
                 <p>FAQ</p>
               </a>
             </div>
             <div className="col text-right">
-              <a href="/contact" className="text-white">
+              <a className="text-white">
                 <BiSend className="arrow"/>
                 <p>Contact</p>
               </a>
