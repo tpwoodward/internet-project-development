@@ -1,5 +1,5 @@
 import React from "react"
-import { BiLeftArrowAlt } from "react-icons/bi"
+import { FaArrowLeft } from "react-icons/fa"
 import Form from "react-bootstrap/Form"
 import Button from "react-bootstrap/Button"
 
@@ -11,7 +11,7 @@ function Contact() {
           <div className="row">
             <div className="col-2 subsectionbtn text-left">
               <a href="/" className="arrow text-white">
-                <BiLeftArrowAlt />
+                <FaArrowLeft />
               </a>
             </div>
             <div className="col"></div>

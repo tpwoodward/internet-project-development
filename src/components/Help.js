@@ -1,32 +1,25 @@
 import React from "react"
-import { Parallax } from "react-scroll-parallax"
-import { BiQuestionMark } from "react-icons/bi"
-import { BiSend } from "react-icons/bi"
+import { FaArrowLeft, FaArrowRight} from "react-icons/fa"
 
 function Help() {
   return (
     <div id="help">
       <div className="Inner">
-        
-        <Parallax className="scrolling-section" y={[-50, 100]}>
-          <h1 className="display-1 text-center">Help</h1>
-          <div className="container-fluid">
+          <h1 className="display-1 text-left">Help</h1>
+        <div className="container-fluid">
           <div className="row">
             <div className="col text-left">
               <a href="/faq" className="text-white">
-                <BiQuestionMark className="arrow"/>
-                <p>FAQ</p>
+                <FaArrowLeft className="arrow" />
               </a>
             </div>
             <div className="col text-right">
               <a href="/contact" className="text-white">
-                <BiSend className="arrow"/>
-                <p>Contact</p>
+                <FaArrowRight className="arrow" />
               </a>
             </div>
           </div>
         </div>
-        </Parallax>
       </div>
     </div>
   )

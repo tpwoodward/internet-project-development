@@ -10,7 +10,7 @@ import BMIModal from "./BMIModal"
 import BodyFatModal from "./BodyFatModal"
 import CaloriesModal from "./CaloriesModal"
 
-import { BiLeftArrowAlt } from "react-icons/bi"
+import { FaArrowLeft } from "react-icons/fa"
 
 function HealthCalc() {
   const [bodyFatModalShow, setBodyFatModalShow] = React.useState(false)
@@ -24,7 +24,7 @@ function HealthCalc() {
           <div className="row">
             <div className="col-1">
               <a href="/" className="arrow text-white">
-                <BiLeftArrowAlt />
+                <FaArrowLeft />
               </a>
             </div>
             <div className="col">

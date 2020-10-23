@@ -1,5 +1,6 @@
 import React from "react"
-import { BiRightArrowAlt } from "react-icons/bi"
+import { FaArrowRight } from "react-icons/fa"
+import { BiRun } from "react-icons/bi"
 
 function Article1() {
   return (
@@ -36,10 +37,11 @@ function Article1() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
+              <BiRun className="text-white"/>
             </div>
             <div className="col-2 subsectionbtn text-right">
               <a href="/" className="arrow text-white">
-                <BiRightArrowAlt />
+                <FaArrowRight />
               </a>
             </div>
           </div>

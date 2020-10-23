@@ -1,5 +1,5 @@
 import React from "react"
-import { BiRightArrowAlt } from "react-icons/bi"
+import { FaArrowRight} from "react-icons/fa"
 
 function FAQ() {
   return (
@@ -21,7 +21,7 @@ function FAQ() {
             </div>
             <div className="col-2 subsectionbtn text-right">
               <a href="/" className="arrow text-white">
-                <BiRightArrowAlt />
+                <FaArrowRight />
               </a>
             </div>
           </div>
