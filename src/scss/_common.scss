@@ -125,3 +125,20 @@ button {
 .HealthTextBtn {
   margin-bottom: 1em;
 }
+
+
+// FAQ styling -----------------------------------------------------------------
+
+.question {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.answer {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.65);
+  padding: 2em;
+  border-radius: 2vh;
+}
