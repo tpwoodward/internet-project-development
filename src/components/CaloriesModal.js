@@ -119,23 +119,23 @@ function CaloriesModal(props) {
               <>
               <h5>Exercise 1-3 times/week</h5>
               <p>
-                {JSON.stringify(data.data["Exercise 1-3 times/week"])}
+              {Number(JSON.stringify(data.data["Exercise 1-3 times/week"])).toFixed(0)} cal
               </p>
               <h5>Exercise 4-5 times/week</h5>
               <p>
-                {JSON.stringify(data.data["Exercise 4-5 times/week"])}
+              {Number(JSON.stringify(data.data["Exercise 4-5 times/week"])).toFixed(0)} cal
               </p>
               <h5>Daily exercise or intense exercise 3-4 times/week</h5>
               <p>
-                {JSON.stringify(data.data["Daily exercise or intense exercise 3-4 times/week"])}
+              {Number(JSON.stringify(data.data["Daily exercise or intense exercise 3-4 times/week"])).toFixed(0)} cal
               </p>
               <h5>Intense exercise 6-7 times/week</h5>
               <p>
-                {JSON.stringify(data.data["Intense exercise 6-7 times/week"])}
+              {Number(JSON.stringify(data.data["Intense exercise 6-7 times/week"])).toFixed(0)} cal
               </p>
               <h5>Very intense exercise daily, or physical job</h5>
               <p>
-                {JSON.stringify(data.data["Very intense exercise daily, or physical job"])}
+              {Number(JSON.stringify(data.data["Very intense exercise daily, or physical job"])).toFixed(0)} cal
               </p>
               </>
             ) : "Press 'Calculate' to see your result"}

@@ -102,7 +102,7 @@ function BMIModal(props) {
               <>
             <h5>BMI</h5>
               <p>
-                {JSON.stringify(data.bmi)}
+                {Number(JSON.stringify(data.bmi)).toFixed(1)}
               </p> 
               <h5>Health</h5>
               <p>

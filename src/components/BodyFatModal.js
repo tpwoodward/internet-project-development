@@ -159,19 +159,19 @@ function BodyFatModal(props) {
               <>
               <h5>Body Fat (U.S. Navy Method)</h5>
               <p>
-                {JSON.stringify(data["Body Fat (U.S. Navy Method)"])}
+                {Number(JSON.stringify(data["Body Fat (U.S. Navy Method)"])).toFixed(0)}
               </p>
               <h5>Body Fat Mass</h5>
               <p>
-                {JSON.stringify(data["Body Fat Mass"])}
+                {Number(JSON.stringify(data["Body Fat Mass"])).toFixed(0)}
               </p>
               <h5>Lean Body Mass</h5>
               <p>
-                {JSON.stringify(data["Lean Body Mass"])}
+                {Number(JSON.stringify(data["Lean Body Mass"])).toFixed(0)}
               </p>
               <h5>Body Fat (BMI method)</h5>
               <p>
-                {JSON.stringify(data["Body Fat (BMI method)"])}
+                {Number(JSON.stringify(data["Body Fat (BMI method)"])).toFixed(0)}
               </p>
               </>
             ) : "Press 'Calculate' to see your result"}
