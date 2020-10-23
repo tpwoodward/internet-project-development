@@ -17,13 +17,13 @@ function Articles() {
             <div className="container-fluid">
               <div className="row">
                 <div className="col text-left">
-                  <a className="text-white">
+                  <a href="/hiit-vs-liss" className="text-white">
                     <BiRun className="arrow" />
                     <p>HIIT vs LISS</p>
                   </a>
                 </div>
                 <div className="col text-right">
-                  <a className="text-white">
+                  <a href="/what-are-macros" className="text-white">
                     <BiRestaurant className="arrow" />
                     <p>What are Macros?</p>
                   </a>

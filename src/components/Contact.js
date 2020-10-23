@@ -10,7 +10,7 @@ function Contact() {
         <div className="container mw-100">
           <div className="row">
             <div className="col-2 subsectionbtn text-left">
-              <a className="arrow text-white">
+              <a href="/" className="arrow text-white">
                 <BiLeftArrowAlt />
               </a>
             </div>

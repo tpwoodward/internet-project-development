@@ -8,7 +8,9 @@ function Article2() {
         <div className="container mw-100">
           <div className="row">
             <div className="col-2 subsectionbtn text-left">
-                <BiLeftArrowAlt className="arrow text-white"/>
+              <a href="/" className="arrow text-white">
+                <BiLeftArrowAlt />
+              </a>
             </div>
             <div className="col">
               <h1 className="display-2">Macronutrients: What are they?</h1>
