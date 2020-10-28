@@ -4,8 +4,6 @@ import { FaWeight } from "react-icons/fa"
 import { AiOutlinePercentage } from "react-icons/ai"
 import { FaChartPie } from "react-icons/fa"
 
-import Button from "react-bootstrap/Button"
-
 import BMIModal from "./BMIModal"
 import BodyFatModal from "./BodyFatModal"
 import CaloriesModal from "./CaloriesModal"

@@ -50,12 +50,12 @@
 /* button */
 .button {
   display: inline-block;
-  padding: .75em 2em;
+  padding: 10px 20px 8px 20px;
   border-radius: 10px;
   border-color: $secondary-color;
   border-width: 2.5px;
   border-style: solid;
-  font-size: 1em;
+  font-size: 1.2em;
   transition: all 0.2s ease;
   color: $secondary-color;
   background-color: white;
@@ -66,22 +66,40 @@
     border-color: $primary-color;
     color: $primary-color !important;
   }
+
+  a {
+    padding: 0;
+  }
 }
 
+.btnIcon {
+  color: $primary-color;
+  font-size: 2em;
+  margin-right: 15px;
+  margin-bottom: 3px;
+}
 
-#nav-left {
-  background-color: white;
+.mainBtn {
+  margin-top: 60px;
+}
+
+.navbar-brand {
+  background-color: rgba(0,0,0,0.05);
   border-radius: 0 0 12px;
 }
 
-#nav-right {
-  background-color: white;
+.navbar {
+  background-color: rgba(0,0,0,0.05);
   border-radius: 0 0 0 12px;
-}
+  transition: ease 2s;
+  a {
+  color: black !important;
+  transition: all 0.2s ease;
 
-.nav-link {
-  color: black;
-
+  &:hover {
+    color: $secondary-color !important;
+  }
+  }
 }
 
 .arrow {

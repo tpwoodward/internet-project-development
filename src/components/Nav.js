@@ -7,13 +7,13 @@ function Nav() {
       <div className="container mw-100 fixed-top">
         <div className="row">
           <div className="col-{breakpoint}-auto">
-            <a className="navbar-brand" id="nav-left" href="/">
+            <a className="navbar-brand" href="/">
               <img src={logo} className="App-logo" alt="logo" />
             </a>
           </div>
           <div className="col"></div>
           <div className="col-{breakpoint}-auto">
-            <nav className="navbar" id="nav-right">
+            <nav className="navbar">
               <a className="nav-link" href="#articles">
                 Articles
               </a>
