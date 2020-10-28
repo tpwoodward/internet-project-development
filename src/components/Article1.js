@@ -10,7 +10,7 @@ function Article1() {
           <div className="row">
             <div className="col">
               <h1 className="display-2">HIIT vs LISS Cardio: Which is Best?</h1>
-              <p className="text-white">
+              <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -19,7 +19,7 @@ function Article1() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-              <p className="text-white">
+              <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -28,7 +28,7 @@ function Article1() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-              <p className="text-white">
+              <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -37,10 +37,10 @@ function Article1() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-              <BiRun className="text-white"/>
+              <BiRun/>
             </div>
             <div className="col-2 subsectionbtn text-right">
-              <a href="/" className="arrow text-white">
+              <a href="/" className="arrow">
                 <FaArrowRight />
               </a>
             </div>

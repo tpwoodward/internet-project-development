@@ -10,102 +10,56 @@
   align-items: flex-end;
   justify-content: flex-end;
   padding: 0.75em 0.75em 0 0;
-  background-color: lightgrey;
+  background-color: white;
   height: 5vh;
-}
-
-.Inner {
-  padding: 30vh 50px;
 }
 
 // Section height -----------------------------------------------------------------
 
-.App-header,
+#header,
+#articles,
+#your-health,
+.Article,
+.HealthCalc {
+  height: 100vh;
+}
+
+#header,
 #articles,
 #your-health,
 .Article,
 .HealthCalc,
-.Help {
-  height: 100vh;
+#help {
   background-size: cover;
+  background-color: white;
+  margin: auto;
+  width: 90%;
+  padding: 30vh 50px;
 }
 
-// Background images -----------------------------------------------------------------
-
-.App-header {
-  background-color: black;
-  background-position: center;
-}
-
-#articles {
-  background-color: black;
-  background-position: center;
-}
-
-.Article {
-  background-color: $primary-color;
-  background-position: center;
-}
-
-#your-health {
-  background-color: black;
-  background-position: center;
-}
-
-.HealthCalc {
-  background-color: $primary-color;
-  background-position: center;
+#header {
+  text-align: center;
 }
 
 #help {
-  background-color: black;
-  background-position: center;
-  color: white;
   height: 95vh;
-}
-
-.Help {
-  background-color: $primary-color;
-  background-position: center;
-}
-
-// Header content -----------------------------------------------------------------
-
-#intro-full {
-  padding-top: 40vh;
-}
-
-.intro {
-  background-color: $primary-color;
-  margin-right: 22.5%;
-  border-radius: 0 12px 12px 0;
-  padding: 1em 0 0.25em 50px;
-}
-
-.intro2 {
-  background-color: lightgrey;
-  margin: 1em 22.5% 0 52.5%;
-  border-radius: 0 0 12px 12px;
-  font-weight: bold;
-  text-align: center;
 }
 
 // Buttons and icons -----------------------------------------------------------------
 
 button {
   background: transparent;
-  color: white;
   border: transparent;
   font-weight: 700;
 }
 
 #nav-left {
-  background-color: lightgrey;
+  background-color: white;
   border-radius: 0 0 12px;
 }
 
 #nav-right {
-  background-color: lightgrey;
+  background-color: white;
   border-radius: 0 0 0 12px;
 }
 
@@ -131,15 +85,6 @@ button {
 // FAQ styling -----------------------------------------------------------------
 
 .question {
-  color: white;
   text-align: center;
-  font-weight: bold;
   font-size: 1.5em;
-}
-
-.answer {
-  color: black;
-  background-color: lightgrey;
-  padding: 2em;
-  border-radius: 2vh;
 }

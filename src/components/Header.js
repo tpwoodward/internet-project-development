@@ -1,15 +1,13 @@
 import React from "react"
-import Nav from "./Nav"
 
 function Header() {
   return (
-    <header className="App-header">
-      <Nav />
-      <div id="intro-full">
+    <div id="header">
+      <div className="inner">
           <h1 style={{ marginLeft: 50 + "px" }}>
             The Health Lab
           </h1>
-        <div className="intro text-white">
+        <div>
           <p>
             At The Health Lab, we prioritise education. We want you to know
             how you're holding up and what your next fitness goals can be!
@@ -19,14 +17,14 @@ function Header() {
             with reading some of our educational articles.
           </p>
         </div>
-            <a href="#your-health" className="nav-link text-dark intro2">
-              Calculate your health
+            <a href="#your-health" className="intro2">
+              <p>Calculate your health</p>
             </a>
-            <a href="#articles" className="nav-link text-dark intro2">
-              Read helpful articles
+            <a href="#articles" className="intro2">
+              <p>Read helpful articles</p>
             </a>
       </div>
-    </header>
+    </div>
   )
 }
 

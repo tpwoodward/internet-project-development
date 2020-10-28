@@ -3,6 +3,7 @@ import "./scss/master.scss"
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
+import Nav from "./components/Nav"
 import Header from "./components/Header"
 import Articles from "./components/Articles"
 import Health from "./components/Health"
@@ -30,6 +31,7 @@ function App() {
             <HealthCalc />
           </Route>
           <Route path="/">
+            <Nav />
             <Header />
             <Articles />
             <Health />

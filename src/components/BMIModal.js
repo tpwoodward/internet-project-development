@@ -97,7 +97,7 @@ function BMIModal(props) {
               </Form>
             </Col>
             <Col>
-            <h3 className="text-dark">Result</h3>
+            <h3>Result</h3>
             {data ? (
               <>
             <h5>BMI</h5>

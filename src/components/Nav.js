@@ -14,13 +14,13 @@ function Nav() {
           <div className="col"></div>
           <div className="col-{breakpoint}-auto">
             <nav className="navbar" id="nav-right">
-              <a className="nav-link text-dark" href="#articles">
+              <a className="nav-link" href="#articles">
                 Articles
               </a>
-              <a className="nav-link text-dark" href="#your-health">
+              <a className="nav-link" href="#your-health">
                 Your Health
               </a>
-              <a className="nav-link text-dark" href="#help">
+              <a className="nav-link" href="#help">
                 Help
               </a>
             </nav>

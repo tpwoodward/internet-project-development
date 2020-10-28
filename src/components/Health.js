@@ -8,7 +8,7 @@ function Health() {
         <div className="Inner">
             <h1 className="display-1">Your Health</h1>
           <div className="text-right">
-            <a href="/health-calc" className="text-white">
+            <a href="/health-calc">
               <FaArrowRight className="arrow"/>
             </a>
           </div>

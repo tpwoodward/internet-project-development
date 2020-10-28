@@ -9,13 +9,13 @@ function Article2() {
         <div className="container mw-100">
           <div className="row">
             <div className="col-2 subsectionbtn text-left">
-              <a href="/" className="arrow text-white">
+              <a href="/" className="arrow">
                 <FaArrowLeft />
               </a>
             </div>
             <div className="col">
               <h1 className="display-2">Macronutrients: What are they?</h1>
-              <p className="text-white">
+              <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -24,7 +24,7 @@ function Article2() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-              <p className="text-white">
+              <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -33,7 +33,7 @@ function Article2() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-              <p className="text-white">
+              <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -42,7 +42,7 @@ function Article2() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-              <BiRestaurant className="text-white"/>
+              <BiRestaurant/>
             </div>
           </div>
         </div>

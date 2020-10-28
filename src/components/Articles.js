@@ -9,16 +9,16 @@ function Articles() {
       <Nav />
       <div id="articles">
         <div className="Inner">
-            <h1 className="display-1 font-weight-bold">Articles</h1>
+            <h1 className="display-1">Articles</h1>
           <div className="container-fluid">
               <div className="row">
                 <div className="col text-left">
-                  <a href="/hiit-vs-liss" className="text-white">
+                  <a href="/hiit-vs-liss">
                     <FaArrowLeft className="arrow" />
                   </a>
                 </div>
                 <div className="col text-right">
-                  <a href="/what-are-macros" className="text-white">
+                  <a href="/what-are-macros">
                     <FaArrowRight className="arrow" />
                   </a>
                 </div>
