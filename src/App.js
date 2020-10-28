@@ -12,7 +12,6 @@ import Footer from "./components/Footer"
 
 import Article1 from "./components/Article1"
 import Article2 from "./components/Article2"
-import HealthCalc from "./components/HealthCalc"
 
 function App() {
   return (
@@ -26,9 +25,6 @@ function App() {
           </Route>
           <Route path="/what-are-macros">
             <Article2 />
-          </Route>
-          <Route path="/health-calc">
-            <HealthCalc />
           </Route>
           <Route path="/">
             <Nav />
