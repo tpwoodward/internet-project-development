@@ -8,7 +8,7 @@ function Article2() {
       <div className="Inner">
         <div className="container mw-100">
           <div className="row">
-            <div className="col-2 subsectionbtn text-left">
+            <div className="col-2 text-left">
               <a href="/" className="arrow">
                 <FaArrowLeft />
               </a>

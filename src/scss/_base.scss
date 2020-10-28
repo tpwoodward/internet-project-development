@@ -1,6 +1,14 @@
 * {
   box-sizing: border-box;
   font-family: 'Work Sans', sans-serif !important;
+  text-decoration: none !important;
+}
+
+a {
+  color: black;
+  &hover {
+    color: $primary-color !important;
+  }
 }
 
 html,

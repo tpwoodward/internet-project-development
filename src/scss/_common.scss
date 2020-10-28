@@ -47,11 +47,27 @@
 
 // Buttons and icons -----------------------------------------------------------------
 
-button {
-  background: transparent;
-  border: transparent;
-  font-weight: 700;
+/* button */
+.button {
+  display: inline-block;
+  padding: .75em 2em;
+  border-radius: 10px;
+  border-color: $secondary-color;
+  border-width: 2.5px;
+  border-style: solid;
+  font-size: 1em;
+  transition: all 0.2s ease;
+  color: $secondary-color;
+  background-color: white;
+  margin: 0 20px;
+  font-weight: 500;
+
+  &:hover {
+    border-color: $primary-color;
+    color: $primary-color !important;
+  }
 }
+
 
 #nav-left {
   background-color: white;
@@ -63,24 +79,14 @@ button {
   border-radius: 0 0 0 12px;
 }
 
+.nav-link {
+  color: black;
+
+}
+
 .arrow {
   font-size: 2.5em;
 }
-
-.HealthCalcBtn,
-.HealthCalcIcon {
-  margin: 20px 0;
-}
-
-.HealthCalcIcon {
-  margin: 20px 0;
-  font-size: 150px;
-}
-
-.HealthTextBtn {
-  margin-bottom: 1em;
-}
-
 
 // FAQ styling -----------------------------------------------------------------
 

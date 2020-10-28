@@ -39,7 +39,7 @@ function Article1() {
               </p>
               <BiRun/>
             </div>
-            <div className="col-2 subsectionbtn text-right">
+            <div className="col-2 text-right">
               <a href="/" className="arrow">
                 <FaArrowRight />
               </a>

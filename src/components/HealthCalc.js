@@ -28,14 +28,11 @@ function HealthCalc() {
               </a>
             </div>
             <div className="col">
-              <FaWeight className="HealthCalcIcon" />
               <br />
-              <Button
-                className="HealthCalcBtn"
-                onClick={() => setBmiModalShow(true)}
-              >
+              <a onClick={() => setBmiModalShow(true)} className="button">
+                <FaWeight className="btnIcon"/>
                 Calculate Body Mass Index
-              </Button>
+              </a>
               <BMIModal
                 show={bmiModalShow}
                 onHide={() => setBmiModalShow(false)}
@@ -47,14 +44,11 @@ function HealthCalc() {
               </p>
             </div>
             <div className="col">
-              <AiOutlinePercentage className="HealthCalcIcon" />
+              <AiOutlinePercentage />
               <br />
-              <Button
-                className="HealthCalcBtn"
-                onClick={() => setBodyFatModalShow(true)}
-              >
+              <a onClick={() => setBodyFatModalShow(true)} className="button">
                 Calculate Body Fat Percentage
-              </Button>
+              </a>
               <BodyFatModal
                 show={bodyFatModalShow}
                 onHide={() => setBodyFatModalShow(false)}
@@ -67,14 +61,11 @@ function HealthCalc() {
               </p>
             </div>
             <div className="col">
-              <FaChartPie className="HealthCalcIcon" />
+              <FaChartPie />
               <br />
-              <Button
-                className="HealthCalcBtn"
-                onClick={() => setCaloriesModalShow(true)}
-              >
+              <a onClick={() => setCaloriesModalShow(true)} className="button">
                 Calculate Calorie Requirements
-              </Button>
+              </a>
               <CaloriesModal
                 show={caloriesModalShow}
                 onHide={() => setCaloriesModalShow(false)}
