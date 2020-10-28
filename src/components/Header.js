@@ -7,11 +7,11 @@ function Header() {
       <Nav />
       <div id="intro-full">
           <h1 style={{ marginLeft: 50 + "px" }}>
-            Passion for Health
+            The Health Lab
           </h1>
         <div className="intro text-white">
           <p>
-            At Passion for Health, we prioritise education. We want you to know
+            At The Health Lab, we prioritise education. We want you to know
             how you're holding up and what your next fitness goals can be!
           </p>
           <p>
