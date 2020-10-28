@@ -1,15 +1,15 @@
 import React from "react"
-import { FaArrowRight } from "react-icons/fa"
-import { BiRun } from "react-icons/bi"
+import SubNav from "./SubNav"
 
 function Article1() {
   return (
     <div className="Article">
+      <SubNav />
       <div className="Inner">
         <div className="container mw-100">
           <div className="row">
             <div className="col">
-              <h1 className="display-2">HIIT vs LISS Cardio: Which is Best?</h1>
+              <h2 className="display-3">HIIT vs LISS</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -37,12 +37,6 @@ function Article1() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-              <BiRun/>
-            </div>
-            <div className="col-2 text-right">
-              <a href="/" className="arrow">
-                <FaArrowRight />
-              </a>
             </div>
           </div>
         </div>

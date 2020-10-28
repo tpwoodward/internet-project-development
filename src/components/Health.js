@@ -12,7 +12,7 @@ function Health() {
   const [caloriesModalShow, setCaloriesModalShow] = React.useState(false)
 
   return (
-    <div className="HealthCalc">
+    <div id="your-health">
       <div className="Inner">
       <h1 className="display-1">Your Health</h1>
               <a onClick={() => setBmiModalShow(true)} className="button mainBtn">

@@ -19,22 +19,20 @@
 #header,
 #articles,
 #your-health,
-.Article,
-.HealthCalc {
+.Article {
   height: 100vh;
+  padding: 30vh 50px;
 }
 
 #header,
 #articles,
 #your-health,
 .Article,
-.HealthCalc,
 #help {
   background-size: cover;
   background-color: white;
   margin: auto;
   width: 90%;
-  padding: 30vh 50px;
 }
 
 #header {
@@ -43,6 +41,7 @@
 
 #help {
   height: 95vh;
+  padding: 20vh 50px;
 }
 
 // Buttons and icons -----------------------------------------------------------------
@@ -72,11 +71,47 @@
   }
 }
 
+.buttonSmall {
+  display: inline-block;
+  padding: 8px 20px 8px 20px;
+  border-radius: 10px;
+  border-color: $secondary-color;
+  border-width: 2.5px;
+  border-style: solid;
+  font-size: 1em;
+  transition: all 0.2s ease;
+  color: $secondary-color;
+  background-color: white;
+  margin: 0 40px 0 0;
+  font-weight: 500;
+
+  &:hover {
+    border-color: $primary-color;
+    color: $primary-color !important;
+  }
+
+  a {
+    padding: 0;
+  }
+}
+
 .btnIcon {
   color: $primary-color;
   font-size: 2em;
   margin-right: 15px;
   margin-bottom: 3px;
+}
+
+.questionBtn {
+  width: 100%;
+  margin: 15px 0 15px 0;
+}
+
+.btnIconRight {
+  color: $primary-color;
+  font-size: 2em;
+  margin-bottom: 3px;
+  margin-left: 82%;
 }
 
 .mainBtn {
@@ -104,11 +139,4 @@
 
 .arrow {
   font-size: 2.5em;
-}
-
-// FAQ styling -----------------------------------------------------------------
-
-.question {
-  text-align: center;
-  font-size: 1.5em;
 }

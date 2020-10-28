@@ -1,20 +1,15 @@
 import React from "react"
-import { FaArrowLeft } from "react-icons/fa"
-import { BiRestaurant } from "react-icons/bi"
+import SubNav from "./SubNav"
 
-function Article2() {
+function Article1() {
   return (
     <div className="Article">
+      <SubNav />
       <div className="Inner">
         <div className="container mw-100">
           <div className="row">
-            <div className="col-2 text-left">
-              <a href="/" className="arrow">
-                <FaArrowLeft />
-              </a>
-            </div>
             <div className="col">
-              <h1 className="display-2">Macronutrients: What are they?</h1>
+              <h2 className="display-3">What are macros?</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -42,7 +37,6 @@ function Article2() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-              <BiRestaurant/>
             </div>
           </div>
         </div>
@@ -51,4 +45,4 @@ function Article2() {
   )
 }
 
-export default Article2
+export default Article1

@@ -147,9 +147,9 @@ function BodyFatModal(props) {
                   />
                 </Form.Group>
                 <Form.Group>
-                  <Button variant="secondary" onClick={handleClick}>
+                  <a className="buttonSmall" onClick={handleClick}>
                     Calculate
-                  </Button>
+                  </a>
                 </Form.Group>
               </Form>
             </Col>
