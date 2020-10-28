@@ -1,17 +1,51 @@
 import React from "react"
-import { FaArrowRight} from "react-icons/fa"
+import Nav from "./Nav"
 
 function Help() {
   return (
-    <div id="help">
+    <div className="Help">
+      <Nav />,
       <div className="Inner">
-          <h1 className="display-1">Help</h1>
-        <div className="container-fluid">
+        <h1 className="display-2">Frequently Asked Questions</h1>
+        <div className="container mw-100">
           <div className="row">
-            <div className="col text-right">
-              <a href="/faq" className="text-white">
-                <FaArrowRight className="arrow" />
-              </a>
+            <div className="col">
+              <p className="question">Question</p>
+              <p className="answer">
+                Answer
+              </p>
+            </div>
+            <div className="col">
+              <p className="question">Question</p>
+              <p className="answer">
+                Answer
+              </p>
+            </div>
+            <div className="col">
+              <p className="question">Question</p>
+              <p className="answer">
+                Answer
+              </p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col">
+              <p className="question">Question</p>
+              <p className="answer">
+                Answer
+              </p>
+            </div>
+            <div className="col">
+              <p className="question">Question</p>
+              <p className="answer">
+                Answer
+              </p>
+            </div>
+            <div className="col">
+              <p className="question">Question</p>
+              <p className="answer">
+                Answer
+              </p>
             </div>
           </div>
         </div>

@@ -9,7 +9,6 @@ import Health from "./components/Health"
 import Help from "./components/Help"
 import Footer from "./components/Footer"
 
-import FAQ from "./components/FAQ"
 import Article1 from "./components/Article1"
 import Article2 from "./components/Article2"
 import HealthCalc from "./components/HealthCalc"
@@ -21,9 +20,6 @@ function App() {
         {/* A <Switch> looks through its children <Route>s and
           renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/faq">
-            <FAQ />
-          </Route>
           <Route path="/hiit-vs-liss">
             <Article1 />
           </Route>
