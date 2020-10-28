@@ -33,39 +33,39 @@
 // Background images -----------------------------------------------------------------
 
 .App-header {
-  background-image: url("../media/pexels-victor-freitas-841130.jpg");
+  background-color: black;
   background-position: center;
 }
 
 #articles {
-  background-image: url("../media/pexels-ella-olsson-1640777.jpg");
+  background-color: black;
   background-position: center;
 }
 
 .Article {
-  background-image: url("../media/pexels-ella-olsson-1640777-red.jpg");
+  background-color: $primary-color;
   background-position: center;
 }
 
 #your-health {
-  background-image: url("../media/pexels-pixabay-40751.jpg");
+  background-color: black;
   background-position: center;
 }
 
 .HealthCalc {
-  background-image: url("../media/pexels-pixabay-40751-red.jpg");
+  background-color: $primary-color;
   background-position: center;
 }
 
 #help {
-  background-image: url("../media/pexels-andrea-piacquadio-3756165.jpg");
+  background-color: black;
   background-position: center;
   color: white;
   height: 95vh;
 }
 
 .Help {
-  background-image: url("../media/pexels-andrea-piacquadio-3756165-red.jpg");
+  background-color: $primary-color;
   background-position: center;
 }
 
