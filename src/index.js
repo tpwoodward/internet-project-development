@@ -3,8 +3,11 @@ import ReactDOM from "react-dom"
 import "./scss/master.scss"
 import App from "./App"
 import "bootstrap/dist/css/bootstrap.min.css"
+import { ParallaxProvider } from "react-scroll-parallax"
 
 ReactDOM.render(
-    <App />,
+  <ParallaxProvider>
+    <App />
+  </ParallaxProvider>,
   document.getElementById("root")
 )

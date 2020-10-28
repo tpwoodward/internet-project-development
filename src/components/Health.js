@@ -1,4 +1,5 @@
 import React from "react"
+import { Parallax }  from "react-scroll-parallax"
 
 import { BiBody, BiPieChartAlt2, BiBarChartAlt } from "react-icons/bi"
 
@@ -14,7 +15,9 @@ function Health() {
   return (
     <div id="your-health">
       <div className="Inner">
+      <Parallax className="scrolling-section" y={[-100, 25]}>
       <h1 className="display-1">Your Health</h1>
+      </Parallax>
               <a onClick={() => setBmiModalShow(true)} className="button mainBtn">
                 <BiBody className="btnIcon"/>
                 Body Mass Index

@@ -1,4 +1,5 @@
 import React from "react"
+import { Parallax } from "react-scroll-parallax"
 
 import { BiCalculator, BiBookOpen } from "react-icons/bi"
 
@@ -6,10 +7,13 @@ function Header() {
   return (
     <div id="header">
       <div className="inner">
-        <h1 style={{ marginLeft: 50 + "px" }}>The Health Lab</h1>
-        <div>
+        <Parallax className="scrolling-section" y={[60, -50]}>
+          <h1>The Health Lab</h1>
+        </Parallax>
+        <Parallax className="scrolling-section" y={[-50, 100]}>
           <h3>Your health made easy</h3>
-        </div>
+        </Parallax>
+        <Parallax className="scrolling-section" y={[-50, 100]}>
         <a href="#your-health" className="button mainBtn">
           <BiCalculator className="btnIcon" />
           Calculate your health
@@ -18,6 +22,7 @@ function Header() {
           <BiBookOpen className="btnIcon" />
           Read helpful articles
         </a>
+        </Parallax>
       </div>
     </div>
   )
