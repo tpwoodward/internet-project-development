@@ -17,13 +17,13 @@ function Help() {
         <div className="container mw-100">
           <div className="row">
             <div className="col">
-              <a
+              <button
                 onClick={() => setModalShow(true)}
                 className="button questionBtn"
               >
                 Question
                 <BiRightArrowAlt className="btnIconRight" />
-              </a>
+              </button>
               <Modal
                 show={ModalShow}
                 onHide={() => setModalShow(false)}
@@ -64,53 +64,53 @@ function Help() {
               </Modal>
             </div>
             <div className="col">
-              <a
+              <button
                 onClick={() => setModalShow(true)}
                 className="button questionBtn"
               >
                 Question
                 <BiRightArrowAlt className="btnIconRight" />
-              </a>{" "}
+              </button>{" "}
             </div>
           </div>
           <div className="row">
             <div className="col">
-              <a
+              <button
                 onClick={() => setModalShow(true)}
                 className="button questionBtn"
               >
                 Question
                 <BiRightArrowAlt className="btnIconRight" />
-              </a>{" "}
+              </button>{" "}
             </div>
             <div className="col">
-              <a
+              <button
                 onClick={() => setModalShow(true)}
                 className="button questionBtn"
               >
                 Question
                 <BiRightArrowAlt className="btnIconRight" />
-              </a>{" "}
+              </button>{" "}
             </div>
           </div>
           <div className="row">
             <div className="col">
-              <a
+              <button
                 onClick={() => setModalShow(true)}
                 className="button questionBtn"
               >
                 Question
                 <BiRightArrowAlt className="btnIconRight" />
-              </a>{" "}
+              </button>{" "}
             </div>
             <div className="col">
-              <a
+              <button
                 onClick={() => setModalShow(true)}
                 className="button questionBtn"
               >
                 Question
                 <BiRightArrowAlt className="btnIconRight" />
-              </a>{" "}
+              </button>{" "}
             </div>
           </div>
         </div>

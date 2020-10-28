@@ -18,26 +18,26 @@ function Health() {
       <Parallax className="scrolling-section" y={[-100, 25]}>
       <h1 className="display-1">Your Health</h1>
       </Parallax>
-              <a onClick={() => setBmiModalShow(true)} className="button mainBtn">
+              <button onClick={() => setBmiModalShow(true)} className="button mainBtn">
                 <BiBody className="btnIcon"/>
                 Body Mass Index
-              </a>
+              </button>
               <BMIModal
                 show={bmiModalShow}
                 onHide={() => setBmiModalShow(false)}
               />
-              <a onClick={() => setBodyFatModalShow(true)} className="button">
+              <button onClick={() => setBodyFatModalShow(true)} className="button">
               <BiPieChartAlt2 className="btnIcon"/>
                 Body Fat Percentage
-              </a>
+              </button>
               <BodyFatModal
                 show={bodyFatModalShow}
                 onHide={() => setBodyFatModalShow(false)}
               />
-              <a onClick={() => setCaloriesModalShow(true)} className="button">
+              <button onClick={() => setCaloriesModalShow(true)} className="button">
               <BiBarChartAlt className="btnIcon"/>
                 Calorie Requirements
-              </a>
+              </button>
               <CaloriesModal
                 show={caloriesModalShow}
                 onHide={() => setCaloriesModalShow(false)}
