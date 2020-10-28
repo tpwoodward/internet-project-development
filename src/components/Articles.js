@@ -1,7 +1,7 @@
 import React from "react"
 import Nav from "./Nav"
 
-import { FaArrowLeft, FaArrowRight} from "react-icons/fa"
+import { BiRun, BiFoodMenu } from "react-icons/bi"
 
 function Articles() {
   return (
@@ -9,21 +9,15 @@ function Articles() {
       <Nav />
       <div id="articles">
         <div className="Inner">
-            <h1 className="display-1">Articles</h1>
-          <div className="container-fluid">
-              <div className="row">
-                <div className="col text-left">
-                  <a href="/hiit-vs-liss">
-                    <FaArrowLeft className="arrow" />
-                  </a>
-                </div>
-                <div className="col text-right">
-                  <a href="/what-are-macros">
-                    <FaArrowRight className="arrow" />
-                  </a>
-                </div>
-              </div>
-            </div>
+          <h1 className="display-1">Articles</h1>
+          <a href="/hiit-vs-liss" className="button mainBtn">
+            <BiRun className="btnIcon" />
+            HIIT vs LISS
+          </a>
+          <a href="/what-are-macros" className="button mainBtn">
+            <BiFoodMenu className="btnIcon" />
+            What are macros?
+          </a>
         </div>
       </div>
     </div>
