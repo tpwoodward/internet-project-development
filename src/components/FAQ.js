@@ -1,5 +1,5 @@
 import React from "react"
-import { FaArrowRight } from "react-icons/fa"
+import { FaArrowLeft } from "react-icons/fa"
 import Nav from "./Nav"
 
 function FAQ() {
@@ -9,7 +9,7 @@ function FAQ() {
       <div className="Inner">
         <h1 className="display-2">Frequently Asked Questions</h1>
         <a href="/" className="arrow text-white">
-          <FaArrowRight />
+          <FaArrowLeft />
         </a>
         <div className="container mw-100">
           <div className="row">

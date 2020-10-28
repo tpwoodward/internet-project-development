@@ -10,7 +10,6 @@ import Help from "./components/Help"
 import Footer from "./components/Footer"
 
 import FAQ from "./components/FAQ"
-import Contact from "./components/Contact"
 import Article1 from "./components/Article1"
 import Article2 from "./components/Article2"
 import HealthCalc from "./components/HealthCalc"
@@ -24,9 +23,6 @@ function App() {
         <Switch>
           <Route path="/faq">
             <FAQ />
-          </Route>
-          <Route path="/contact">
-            <Contact />
           </Route>
           <Route path="/hiit-vs-liss">
             <Article1 />
