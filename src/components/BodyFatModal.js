@@ -157,10 +157,7 @@ function BodyFatModal(props) {
               <h3>Result</h3>
               {data ? (
                 <>
-                  <p>
-                    Remember, there is no one way to accurately gauge your body
-                    fat percentage, so here are your results from two different
-                    tests!
+                  <p>No body fat percentage test is 100% accurate, so here are your results for two methods!
                   </p>
 
                   <h5>U.S. Navy Method</h5>

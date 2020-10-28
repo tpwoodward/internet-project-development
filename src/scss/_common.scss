@@ -76,7 +76,7 @@
   padding: 8px 20px 8px 20px;
   border-radius: 10px;
   border-color: $secondary-color;
-  border-width: 2.5px;
+  border-width: 1px;
   border-style: solid;
   font-size: 1em;
   transition: all 0.2s ease;
@@ -111,7 +111,6 @@
   color: $primary-color;
   font-size: 2em;
   margin-bottom: 3px;
-  margin-left: 82%;
 }
 
 .mainBtn {
@@ -139,4 +138,8 @@
 
 .arrow {
   font-size: 2.5em;
+}
+
+.form-control {
+  border-color: $secondary-color !important;
 }
