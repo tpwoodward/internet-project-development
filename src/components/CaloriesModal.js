@@ -133,10 +133,6 @@ function CaloriesModal(props) {
               <p>
               {Number(JSON.stringify(data.data["Intense exercise 6-7 times/week"])).toFixed(0)} cal
               </p>
-              <h5>Very intense exercise daily</h5>
-              <p>
-              {Number(JSON.stringify(data.data["Very intense exercise daily"])).toFixed(0)} cal
-              </p>
               </>
             ) : "Press 'Calculate' to see your result"}
             </Col>
