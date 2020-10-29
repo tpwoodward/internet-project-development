@@ -68,7 +68,7 @@ function CaloriesModal(props) {
       <Modal.Body>
         <Container fluid>
           <Row>
-            <Col>
+            <Col sm>
               <Form>
                 <Form.Group>
                   <Form.Label>Age</Form.Label>
@@ -113,7 +113,7 @@ function CaloriesModal(props) {
                 </Form.Group>
               </Form>
             </Col>
-            <Col>
+            <Col sm>
             <h3>Result</h3>
             {data ? (
               <>

@@ -3,6 +3,10 @@ import { Parallax } from "react-scroll-parallax"
 
 import Modal from "react-bootstrap/Modal"
 
+import Container from "react-bootstrap/Container"
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
+
 import { BiRightArrowAlt } from "react-icons/bi"
 
 function Help() {
@@ -14,9 +18,9 @@ function Help() {
         <Parallax className="scrolling-section" y={[-75, 18.75]}>
           <h1 className="display-2">Help</h1>
         </Parallax>
-        <div className="container mw-100">
-          <div className="row">
-            <div className="col">
+        <Container fluid>
+          <Row>
+            <Col sm>
               <button
                 onClick={() => setModalShow(true)}
                 className="button questionBtn"
@@ -62,8 +66,8 @@ function Help() {
                   </Modal.Body>
                 </div>
               </Modal>
-            </div>
-            <div className="col">
+            </Col>
+            <Col sm>
               <button
                 onClick={() => setModalShow(true)}
                 className="button questionBtn"
@@ -71,10 +75,10 @@ function Help() {
                 Question
                 <BiRightArrowAlt className="btnIconRight" />
               </button>{" "}
-            </div>
-          </div>
-          <div className="row">
-            <div className="col">
+            </Col>
+          </Row>
+          <Row>
+            <Col sm>
               <button
                 onClick={() => setModalShow(true)}
                 className="button questionBtn"
@@ -82,8 +86,8 @@ function Help() {
                 Question
                 <BiRightArrowAlt className="btnIconRight" />
               </button>{" "}
-            </div>
-            <div className="col">
+            </Col>
+            <Col sm>
               <button
                 onClick={() => setModalShow(true)}
                 className="button questionBtn"
@@ -91,10 +95,10 @@ function Help() {
                 Question
                 <BiRightArrowAlt className="btnIconRight" />
               </button>{" "}
-            </div>
-          </div>
-          <div className="row">
-            <div className="col">
+            </Col>
+          </Row>
+          <Row>
+            <Col sm>
               <button
                 onClick={() => setModalShow(true)}
                 className="button questionBtn"
@@ -102,8 +106,8 @@ function Help() {
                 Question
                 <BiRightArrowAlt className="btnIconRight" />
               </button>{" "}
-            </div>
-            <div className="col">
+            </Col>
+            <Col sm>
               <button
                 onClick={() => setModalShow(true)}
                 className="button questionBtn"
@@ -111,9 +115,9 @@ function Help() {
                 Question
                 <BiRightArrowAlt className="btnIconRight" />
               </button>{" "}
-            </div>
-          </div>
-        </div>
+            </Col>
+          </Row>
+        </Container>
       </div>
     </div>
   )

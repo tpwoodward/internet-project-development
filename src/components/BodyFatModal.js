@@ -83,7 +83,7 @@ function BodyFatModal(props) {
       <Modal.Body>
         <Container fluid>
           <Row>
-            <Col>
+            <Col sm>
               <Form>
                 <Form.Group>
                   <Form.Label>Waist circumference (cm)</Form.Label>
@@ -153,7 +153,7 @@ function BodyFatModal(props) {
                 </Form.Group>
               </Form>
             </Col>
-            <Col>
+            <Col sm>
               <h3>Result</h3>
               {data ? (
                 <>

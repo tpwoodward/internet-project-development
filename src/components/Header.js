@@ -18,7 +18,7 @@ function Header() {
           <BiCalculator className="btnIcon" />
           Calculate your health
         </a>
-        <a href="#articles" className="button mainBtn">
+        <a href="#articles" className="button">
           <BiBookOpen className="btnIcon" />
           Read helpful articles
         </a>
