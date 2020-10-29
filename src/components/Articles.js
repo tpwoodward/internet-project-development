@@ -14,7 +14,7 @@ function Articles() {
           <div id="articles">
             <div className="inner">
               <Parallax className="scrolling-section" y={[-100, 25]}>
-                <h1 className="display-1">Articles</h1>
+                <h1 className="display-1 text-white">Articles</h1>
               </Parallax>
               <a href="/hiit-vs-liss" className="button mainBtn">
                 <BiRun className="btnIcon" />

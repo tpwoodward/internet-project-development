@@ -17,7 +17,7 @@ function Help() {
     <div id="help">
       <div className="Inner">
         <Parallax className="scrolling-section" y={[-75, 18.75]}>
-          <h1 className="display-2">Help</h1>
+          <h1 className="display-2 text-white">Help</h1>
         </Parallax>
         <Container fluid>
           <Row>

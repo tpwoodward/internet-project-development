@@ -50,32 +50,32 @@
 // Backgrounds ------------------------
 
 .App-header {
-  background-image: url("../media/pexels-victor-freitas-841130.jpg");
+  background-color: white;
   background-position: center;
 }
 
 #articles {
-  background-image: url("../media/pexels-ella-olsson-1640777.jpg");
+  background-color: $primary-color;
   background-position: center;
 }
 
 .Article {
-  background-image: url("../media/pexels-ella-olsson-1640777.jpg");
+  background-color: white;
   background-position: center;
 }
 
 #your-health {
-  background-image: url("../media/pexels-pixabay-40751.jpg");
+  background-color: white;
   background-position: center;
 }
 
 .HealthCalc {
-  background-image: url("../media/pexels-pixabay-40751.jpg");
+  background-color: white;
   background-position: center;
 }
 
 #help {
-  background-image: url("../media/pexels-andrea-piacquadio-3756165.jpg");
+  background-color: $primary-color;
   background-position: center;
 }
 
@@ -155,12 +155,12 @@
 }
 
 .navbar-brand {
-  background-color: rgba(0,0,0,0.04);
+  background-color: rgb(245,245,245);
   border-radius: 0 0 12px;
 }
 
 .navbar {
-  background-color: rgba(0,0,0,0.04);
+  background-color: rgb(245,245,245);
   border-radius: 0 0 0 12px;
   transition: ease 2s;
   a {
@@ -192,14 +192,6 @@
     color: $primary-color !important;
   }
 
-}
-
-#beaker {
-  margin-top: 25vh;
-  margin-left: 5vw;
-  font-size: 30vw;
-  opacity: 50%;
-  color: $secondary-color;
 }
 
 .inner {
