@@ -189,6 +189,7 @@
 
 .link {
   color: $secondary-color;
+  transition: all 0.2s ease;
   &:hover {
     color: $primary-color !important;
   }

@@ -43,8 +43,10 @@ function Article2() {
         </p>
         <p className="reference">
           Australian Sports Nutrition. 2019. "Macros 101: What are they and why
-          do I need them?" Australian Sports Nutrition.
-          https://tinyurl.com/y3bxulgn.
+          do I need them?" Australian Sports Nutrition.{" "}
+          <a className="link" href="https://tinyurl.com/yy4k3525">
+            https://tinyurl.com/y3bxulgn
+          </a>
         </p>
       </div>
     </div>
