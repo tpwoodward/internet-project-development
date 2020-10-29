@@ -1,8 +1,7 @@
 import React from "react"
 import { Parallax } from "react-scroll-parallax"
 
-import { BiRun, BiFoodMenu } from "react-icons/bi"
-import { GiSpellBook } from "react-icons/gi";
+import { BiRun, BiFoodMenu, BiBookOpen } from "react-icons/bi"
 
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
@@ -31,8 +30,8 @@ function Articles() {
           </div>
         </Col>
         <Col sm>
-          <Parallax className="scrolling-section" x={[40, -10]}>
-            <GiSpellBook className="bigIcon" />
+          <Parallax className="scrolling-section" y={[50, -50]}>
+            <BiBookOpen className="bigIcon" />
           </Parallax>
         </Col>
       </Row>

@@ -6,8 +6,7 @@ import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
-import { BiInfoCircle } from "react-icons/bi"
-import { GiStrong } from "react-icons/gi";
+import { BiInfoCircle, BiQuestionMark } from "react-icons/bi"
 
 function Help() {
   const [Modal1Show, setModal1Show] = React.useState(false)
@@ -231,8 +230,8 @@ function Help() {
           </div>
         </Col>
         <Col sm>
-          <Parallax className="scrolling-section" x={[40, -10]}>
-            <GiStrong className="bigIcon" />
+          <Parallax className="scrolling-section" y={[50, -40]}>
+            <BiQuestionMark className="bigIcon" />
           </Parallax>
         </Col>
       </Row>

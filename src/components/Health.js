@@ -1,9 +1,7 @@
 import React from "react"
 import { Parallax } from "react-scroll-parallax"
 
-import { BiBody, BiPieChartAlt2, BiBarChartAlt } from "react-icons/bi"
-
-import { GiHealthPotion } from "react-icons/gi";
+import { BiBody, BiPieChartAlt2, BiBarChartAlt, BiBookHeart } from "react-icons/bi"
 
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
@@ -66,8 +64,8 @@ function Health() {
           </div>
         </Col>
         <Col sm>
-          <Parallax className="scrolling-section" x={[40, -10]}>
-            <GiHealthPotion className="bigIconAlt" />
+          <Parallax className="scrolling-section" y={[-30, 25]}>
+            <BiBookHeart className="bigIconAlt" />
           </Parallax>
         </Col>
       </Row>
