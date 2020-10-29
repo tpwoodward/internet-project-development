@@ -36,7 +36,6 @@
   background-size: cover;
   background-color: white;
   margin: auto;
-  width: 90%;
 }
 
 #header {
@@ -46,6 +45,38 @@
 #help {
   height: 95vh;
   padding: 20vh 50px;
+}
+
+// Backgrounds ------------------------
+
+.App-header {
+  background-image: url("../media/pexels-victor-freitas-841130.jpg");
+  background-position: center;
+}
+
+#articles {
+  background-image: url("../media/pexels-ella-olsson-1640777.jpg");
+  background-position: center;
+}
+
+.Article {
+  background-image: url("../media/pexels-ella-olsson-1640777.jpg");
+  background-position: center;
+}
+
+#your-health {
+  background-image: url("../media/pexels-pixabay-40751.jpg");
+  background-position: center;
+}
+
+.HealthCalc {
+  background-image: url("../media/pexels-pixabay-40751.jpg");
+  background-position: center;
+}
+
+#help {
+  background-image: url("../media/pexels-andrea-piacquadio-3756165.jpg");
+  background-position: center;
 }
 
 // Buttons and icons -----------------------------------------------------------------
@@ -124,12 +155,12 @@
 }
 
 .navbar-brand {
-  background-color: rgba(0,0,0,0.025);
+  background-color: rgba(0,0,0,0.04);
   border-radius: 0 0 12px;
 }
 
 .navbar {
-  background-color: rgba(0,0,0,0.025);
+  background-color: rgba(0,0,0,0.04);
   border-radius: 0 0 0 12px;
   transition: ease 2s;
   a {
@@ -161,4 +192,16 @@
     color: $primary-color !important;
   }
 
+}
+
+#beaker {
+  margin-top: 25vh;
+  margin-left: 5vw;
+  font-size: 30vw;
+  opacity: 50%;
+  color: $secondary-color;
+}
+
+.inner {
+  width: 90%;
 }
