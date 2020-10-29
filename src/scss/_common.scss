@@ -18,10 +18,14 @@
 
 #header,
 #articles,
-#your-health,
-.Article {
+#your-health {
   height: 100vh;
   padding: 30vh 50px;
+}
+
+.Article {
+  height: 100vh;
+  padding: 20vh 50px;
 }
 
 #header,
@@ -144,4 +148,9 @@
 
 .form-control {
   border-color: $secondary-color !important;
+}
+
+.reference {
+  font-style: italic;
+  color: $secondary-color;
 }
