@@ -35,8 +35,6 @@
 #help {
   background-size: cover;
   background-color: white;
-  margin: auto;
-  width: 90%;
 }
 
 #header {
@@ -46,6 +44,38 @@
 #help {
   height: 95vh;
   padding: 20vh 50px;
+}
+
+// Backgrounds ------------------------
+
+.App-header {
+  background-color: white;
+  background-position: center;
+}
+
+#articles {
+  background-color: $primary-color;
+  background-position: center;
+}
+
+.Article {
+  background-color: white;
+  background-position: center;
+}
+
+#your-health {
+  background-color: white;
+  background-position: center;
+}
+
+.HealthCalc {
+  background-color: white;
+  background-position: center;
+}
+
+#help {
+  background-color: $primary-color;
+  background-position: center;
 }
 
 // Buttons and icons -----------------------------------------------------------------
@@ -123,13 +153,15 @@
   margin-top: 60px;
 }
 
+
+
 .navbar-brand {
-  background-color: rgba(0,0,0,0.025);
+  background-color: rgb(245,245,245);
   border-radius: 0 0 12px;
 }
 
 .navbar {
-  background-color: rgba(0,0,0,0.025);
+  background-color: rgb(245,245,245);
   border-radius: 0 0 0 12px;
   transition: ease 2s;
   a {
@@ -161,4 +193,25 @@
     color: $primary-color !important;
   }
 
+}
+
+.bigIcon {
+  margin-top: 25vh;
+  margin-left: 5vw;
+  font-size: 30vw;
+  opacity: 50%;
+  color: $primary-color;
+}
+
+.bigIconAlt {
+  margin-top: 25vh;
+  margin-left: 5vw;
+  font-size: 30vw;
+  opacity: 50%;
+  color: $secondary-color;
+}
+
+#beaker {
+  font-size: .6em;
+  margin-left: .1em;
 }

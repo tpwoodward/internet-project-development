@@ -1,7 +1,11 @@
 import React from "react"
-import { Parallax }  from "react-scroll-parallax"
+import { Parallax } from "react-scroll-parallax"
 
-import { BiBody, BiPieChartAlt2, BiBarChartAlt } from "react-icons/bi"
+import { BiBody, BiPieChartAlt2, BiBarChartAlt, BiBookHeart } from "react-icons/bi"
+
+import Container from "react-bootstrap/Container"
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
 import Button from "react-bootstrap/Button"
 
 import BMIModal from "./BMIModal"
@@ -14,37 +18,58 @@ function Health() {
   const [caloriesModalShow, setCaloriesModalShow] = React.useState(false)
 
   return (
-    <div id="your-health">
-      <div className="Inner">
-      <Parallax className="scrolling-section" y={[-100, 25]}>
-      <h1 className="display-1">Your Health</h1>
-      </Parallax>
-              <Button onClick={() => setBmiModalShow(true)} bsPrefix="button mainBtn">
-                <BiBody className="btnIcon"/>
+    <Container fluid>
+      <Row>
+        <Col sm>
+          <div id="your-health">
+              <Parallax className="scrolling-section" y={[20, -80]}>
+                <h1 className="display-1">Your Health</h1>
+              <Button
+                onClick={() => setBmiModalShow(true)}
+                bsPrefix="button mainCalcBtn"
+              >
+                <BiBody className="btnIcon" />
                 Body Mass Index
               </Button>
+              <br />
+              <Button
+                onClick={() => setBodyFatModalShow(true)}
+                bsPrefix="button"
+              >
+                <BiPieChartAlt2 className="btnIcon" />
+                Body Fat Percentage
+              </Button>
+              <br />
+              <Button
+                onClick={() => setCaloriesModalShow(true)}
+                bsPrefix="button"
+              >
+                <BiBarChartAlt className="btnIcon" />
+                Calorie Requirements
+              </Button>
+              </Parallax>
+
               <BMIModal
                 show={bmiModalShow}
                 onHide={() => setBmiModalShow(false)}
               />
-              <Button onClick={() => setBodyFatModalShow(true)} bsPrefix="button">
-              <BiPieChartAlt2 className="btnIcon"/>
-                Body Fat Percentage
-              </Button>
               <BodyFatModal
                 show={bodyFatModalShow}
                 onHide={() => setBodyFatModalShow(false)}
               />
-              <Button onClick={() => setCaloriesModalShow(true)} bsPrefix="button">
-              <BiBarChartAlt className="btnIcon"/>
-                Calorie Requirements
-              </Button>
               <CaloriesModal
                 show={caloriesModalShow}
                 onHide={() => setCaloriesModalShow(false)}
               />
-      </div>
-    </div>
+          </div>
+        </Col>
+        <Col sm>
+          <Parallax className="scrolling-section" y={[-30, 25]}>
+            <BiBookHeart className="bigIconAlt" />
+          </Parallax>
+        </Col>
+      </Row>
+    </Container>
   )
 }
 
