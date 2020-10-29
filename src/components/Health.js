@@ -1,7 +1,7 @@
 import React from "react"
 import { Parallax } from "react-scroll-parallax"
 
-import { BiBody, BiPieChartAlt2, BiBarChartAlt, BiBookHeart } from "react-icons/bi"
+import { BiBody, BiPieChartAlt2, BiBarChartAlt } from "react-icons/bi"
 
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"

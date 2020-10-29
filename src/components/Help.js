@@ -6,7 +6,7 @@ import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
-import { BiInfoCircle, BiQuestionMark } from "react-icons/bi"
+import { BiInfoCircle } from "react-icons/bi"
 
 function Help() {
   const [Modal1Show, setModal1Show] = React.useState(false)

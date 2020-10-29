@@ -1,7 +1,7 @@
 import React from "react"
 import { Parallax } from "react-scroll-parallax"
 
-import { BiRun, BiFoodMenu, BiBookOpen } from "react-icons/bi"
+import { BiRun, BiFoodMenu } from "react-icons/bi"
 
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
