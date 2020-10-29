@@ -39,7 +39,7 @@ function Article1() {
           Morgan, Maggie. 2020. "3 Differences Between LISS Cardio And HIIT (#3
           Is Cool)." Fitbod.{" "}
           <a className="link" href="https://tinyurl.com/yy4k3525">
-            https://tinyurl.com/yxudf239.
+            https://tinyurl.com/yxudf239
           </a>
         </p>
       </div>

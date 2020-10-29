@@ -230,8 +230,8 @@ function Help() {
           </div>
         </Col>
         <Col sm>
-          <Parallax className="scrolling-section" y={[50, -40]}>
-            <BiQuestionMark className="bigIcon" />
+        <Parallax className="scrolling-section" y={[200, 50]}>
+          <img className="sectionImg" src="media/pexels-andrea-piacquadio-3756165.jpg" alt="Runners" />
           </Parallax>
         </Col>
       </Row>

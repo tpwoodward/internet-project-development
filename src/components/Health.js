@@ -64,8 +64,8 @@ function Health() {
           </div>
         </Col>
         <Col sm>
-          <Parallax className="scrolling-section" y={[-30, 25]}>
-            <BiBookHeart className="bigIconAlt" />
+        <Parallax className="scrolling-section" y={[200, 50]}>
+          <img className="sectionImgAlt" src="media/pexels-victor-freitas-841130.jpg" alt="Runners" />
           </Parallax>
         </Col>
       </Row>

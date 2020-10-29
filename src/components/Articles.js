@@ -30,8 +30,8 @@ function Articles() {
           </div>
         </Col>
         <Col sm>
-          <Parallax className="scrolling-section" y={[50, -50]}>
-            <BiBookOpen className="bigIcon" />
+          <Parallax className="scrolling-section" y={[200, 50]}>
+          <img className="sectionImg" src="media/pexels-ella-olsson-1640777.jpg" alt="Runners" />
           </Parallax>
         </Col>
       </Row>

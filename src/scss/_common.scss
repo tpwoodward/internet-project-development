@@ -216,3 +216,19 @@
   font-size: .6em;
   margin-left: .1em;
 }
+
+.sectionImg {
+  max-width: 40vw;
+  border-bottom-color: $primary-color;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  margin-left: 4.5vw;
+}
+
+.sectionImgAlt {
+  max-width: 40vw;
+  border-bottom-color: $secondary-color;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  margin-left: 4.5vw;
+}
