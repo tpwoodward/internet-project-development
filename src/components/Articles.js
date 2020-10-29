@@ -2,7 +2,7 @@ import React from "react"
 import { Parallax } from "react-scroll-parallax"
 
 import { BiRun, BiFoodMenu } from "react-icons/bi"
-import { VscBeaker } from "react-icons/vsc"
+import { GiSpellBook } from "react-icons/gi";
 
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
@@ -10,9 +10,12 @@ import Col from "react-bootstrap/Col"
 
 function Articles() {
   return (
-
+    <div>
+    <Container fluid>
+      <Row>
+        <Col sm>
           <div id="articles">
-            <div className="inner">
+            <div>
               <Parallax className="scrolling-section" y={[-100, 25]}>
                 <h1 className="display-1 text-white">Articles</h1>
               </Parallax>
@@ -26,6 +29,15 @@ function Articles() {
               </a>
             </div>
           </div>
+        </Col>
+        <Col sm>
+          <Parallax className="scrolling-section" x={[40, -10]}>
+            <GiSpellBook className="bigIcon" />
+          </Parallax>
+        </Col>
+      </Row>
+    </Container>
+    </div>
   )
 }
 

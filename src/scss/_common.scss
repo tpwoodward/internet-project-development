@@ -35,7 +35,6 @@
 #help {
   background-size: cover;
   background-color: white;
-  margin: auto;
 }
 
 #header {
@@ -154,6 +153,8 @@
   margin-top: 60px;
 }
 
+
+
 .navbar-brand {
   background-color: rgb(245,245,245);
   border-radius: 0 0 12px;
@@ -194,6 +195,18 @@
 
 }
 
-.inner {
-  width: 90%;
+.bigIcon {
+  margin-top: 25vh;
+  margin-left: 5vw;
+  font-size: 30vw;
+  opacity: 50%;
+  color: $primary-color;
+}
+
+.bigIconAlt {
+  margin-top: 25vh;
+  margin-left: 5vw;
+  font-size: 30vw;
+  opacity: 50%;
+  color: $secondary-color;
 }
