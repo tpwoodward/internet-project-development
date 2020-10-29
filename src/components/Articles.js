@@ -18,11 +18,11 @@ function Articles() {
               <Parallax className="scrolling-section" y={[-100, 25]}>
                 <h1 className="display-1 text-white">Articles</h1>
               </Parallax>
-              <a href="/hiit-vs-liss" className="button mainBtn">
+              <a href="/hiit-vs-liss" className="button articleBtn mainBtn">
                 <BiRun className="btnIcon" />
                 HIIT vs LISS
               </a>
-              <a href="/what-are-macros" className="button mainBtn">
+              <a href="/what-are-macros" className="button articleBtn">
                 <BiFoodMenu className="btnIcon" />
                 What are macros?
               </a>

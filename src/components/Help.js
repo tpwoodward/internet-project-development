@@ -27,7 +27,7 @@ function Help() {
                 <Row>
                   <button
                     onClick={() => setModal1Show(true)}
-                    className="button"
+                    className="button questionBtn"
                   >
                     <BiInfoCircle className="btnIcon" />
                     How much should I exercise?
@@ -36,7 +36,7 @@ function Help() {
                 <Row>
                   <button
                     onClick={() => setModal3Show(true)}
-                    className="button"
+                    className="button questionBtn"
                   >
                     <BiInfoCircle className="btnIcon" />
                     What is a cut vs bulk?
@@ -45,7 +45,7 @@ function Help() {
                 <Row>
                   <button
                     onClick={() => setModal2Show(true)}
-                    className="button"
+                    className="button questionBtn"
                   >
                     <BiInfoCircle className="btnIcon" />
                     How do I lose weight?
@@ -54,7 +54,7 @@ function Help() {
                 <Row>
                   <button
                     onClick={() => setModal4Show(true)}
-                    className="button"
+                    className="button questionBtn"
                   >
                     <BiInfoCircle className="btnIcon" />
                     How do I build muscle?

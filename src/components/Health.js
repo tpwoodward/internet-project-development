@@ -26,7 +26,7 @@ function Health() {
                 <h1 className="display-1">Your Health</h1>
               <Button
                 onClick={() => setBmiModalShow(true)}
-                bsPrefix="button mainCalcBtn"
+                bsPrefix="button healthBtn mainCalcBtn"
               >
                 <BiBody className="btnIcon" />
                 Body Mass Index
@@ -34,7 +34,7 @@ function Health() {
               <br />
               <Button
                 onClick={() => setBodyFatModalShow(true)}
-                bsPrefix="button"
+                bsPrefix="button healthBtn"
               >
                 <BiPieChartAlt2 className="btnIcon" />
                 Body Fat Percentage
@@ -42,7 +42,7 @@ function Health() {
               <br />
               <Button
                 onClick={() => setCaloriesModalShow(true)}
-                bsPrefix="button"
+                bsPrefix="button healthBtn"
               >
                 <BiBarChartAlt className="btnIcon" />
                 Calorie Requirements

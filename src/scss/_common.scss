@@ -139,8 +139,21 @@
 }
 
 .questionBtn {
-  width: 100%;
-  margin: 20px 0 20px 0;
+  width: 22vw;
+  min-width: auto;
+  text-align: left;
+}
+
+.healthBtn {
+  width: 18vw;
+  min-width: auto;
+  text-align: left;
+}
+
+.articleBtn {
+  width: 16vw;
+  min-width: auto;
+  text-align: left;
 }
 
 .btnIconRight {
