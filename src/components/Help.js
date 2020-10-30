@@ -24,7 +24,7 @@ function Help() {
                 <h1 className="display-2 text-white">Help</h1>
               </Parallax>
               <Container fluid>
-                <Row>
+                <Col sm>
                   <button
                     onClick={() => setModal1Show(true)}
                     className="button questionBtn"
@@ -32,8 +32,7 @@ function Help() {
                     <BiInfoCircle className="btnIcon" />
                     How much should I exercise?
                   </button>
-                </Row>
-                <Row>
+                  <br />
                   <button
                     onClick={() => setModal3Show(true)}
                     className="button questionBtn"
@@ -41,8 +40,7 @@ function Help() {
                     <BiInfoCircle className="btnIcon" />
                     What is a cut vs bulk?
                   </button>
-                </Row>
-                <Row>
+                  <br />
                   <button
                     onClick={() => setModal2Show(true)}
                     className="button questionBtn"
@@ -50,8 +48,7 @@ function Help() {
                     <BiInfoCircle className="btnIcon" />
                     How do I lose weight?
                   </button>
-                </Row>
-                <Row>
+                  <br />
                   <button
                     onClick={() => setModal4Show(true)}
                     className="button questionBtn"
@@ -59,7 +56,8 @@ function Help() {
                     <BiInfoCircle className="btnIcon" />
                     How do I build muscle?
                   </button>
-                </Row>
+                </Col>
+                <Col sm></Col>
               </Container>
 
               <Modal
@@ -230,8 +228,12 @@ function Help() {
           </div>
         </Col>
         <Col sm>
-        <Parallax className="scrolling-section" y={[200, 50]}>
-          <img className="sectionImg" src="media/pexels-andrea-piacquadio-3756165.jpg" alt="Runners" />
+          <Parallax className="scrolling-section" y={[200, 50]}>
+            <img
+              className="sectionImg"
+              src="media/pexels-andrea-piacquadio-3756165.jpg"
+              alt="Runners"
+            />
           </Parallax>
         </Col>
       </Row>
