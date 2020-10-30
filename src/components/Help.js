@@ -227,7 +227,7 @@ function Help() {
             <img
               className="sectionImg"
               src="photos/pexels-andrea-piacquadio-3756165.jpg"
-              alt="Runners"
+              alt="Runners shot sourced from Pexels"
             />
           </Parallax>
         </Col>

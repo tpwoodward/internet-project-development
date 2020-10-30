@@ -66,7 +66,7 @@ function Health() {
         </Col>
         <Col className="lgSection">
         <Parallax className="scrolling-section" y={[200, 50]}>
-          <img className="sectionImgAlt" src="photos/pexels-victor-freitas-841130.jpg" alt="Runners" />
+          <img className="sectionImgAlt" src="photos/pexels-victor-freitas-841130.jpg" alt="Weightlifting shot sourced from Pexels" />
           </Parallax>
         </Col>
       </Row>
