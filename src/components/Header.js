@@ -10,8 +10,12 @@ function Header() {
     <div id="header">
       <div className="inner">
         <Parallax className="scrolling-section" y={[60, -50]}>
-          <h1>The Health L<VscBeaker id="beaker"/>b</h1>
-        </Parallax>
+        <img
+              className="logoImg"
+              src="the-health-lab-wordmark.svg"
+              alt="Runners"
+            />
+           </Parallax>
         <Parallax className="scrolling-section" y={[-50, 100]}>
           <h3>Your health made easy</h3>
         </Parallax>

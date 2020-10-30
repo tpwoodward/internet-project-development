@@ -231,7 +231,7 @@ function Help() {
           <Parallax className="scrolling-section" y={[200, 50]}>
             <img
               className="sectionImg"
-              src="media/pexels-andrea-piacquadio-3756165.jpg"
+              src="photos/pexels-andrea-piacquadio-3756165.jpg"
               alt="Runners"
             />
           </Parallax>

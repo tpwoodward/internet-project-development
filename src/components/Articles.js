@@ -31,7 +31,7 @@ function Articles() {
         </Col>
         <Col sm>
           <Parallax className="scrolling-section" y={[200, 50]}>
-          <img className="sectionImg" src="media/pexels-ella-olsson-1640777.jpg" alt="Runners" />
+          <img className="sectionImg" src="photos/pexels-ella-olsson-1640777.jpg" alt="Runners" />
           </Parallax>
         </Col>
       </Row>
