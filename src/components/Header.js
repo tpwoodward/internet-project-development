@@ -2,8 +2,6 @@ import React from "react"
 import { Parallax } from "react-scroll-parallax"
 
 import { BiCalculator, BiBookOpen } from "react-icons/bi"
-import { VscBeaker } from "react-icons/vsc"
-
 
 function Header() {
   return (
