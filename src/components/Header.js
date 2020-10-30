@@ -18,11 +18,11 @@ function Header() {
           <h3>Your health made easy</h3>
         </Parallax>
         <Parallax className="scrolling-section" y={[-50, 100]}>
-        <a href="#your-health" className="button mainBtn">
+        <a href="#your-health" className="button mainBtn rightBtn">
           <BiCalculator className="btnIcon" />
           Calculate your health
         </a>
-        <a href="#articles" className="button">
+        <a href="#articles" className="button leftBtn">
           <BiBookOpen className="btnIcon" />
           Read helpful articles
         </a>
