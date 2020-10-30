@@ -10,7 +10,7 @@
   align-items: flex-end;
   justify-content: flex-end;
   padding: 0.75em 0.75em 0 0;
-  background-color: rgba(0,0,0,0.05);
+  background-color: rgba(0, 0, 0, 0.05);
   height: 5vh;
 }
 
@@ -98,7 +98,7 @@
   &:hover {
     border-color: $primary-color;
     color: $primary-color !important;
-    transform: scale(1.05)
+    transform: scale(1.05);
   }
 
   a {
@@ -123,7 +123,7 @@
   &:hover {
     border-color: $primary-color;
     color: $primary-color !important;
-    transform: scale(1.05)
+    transform: scale(1.05);
   }
 
   a {
@@ -138,20 +138,10 @@
   margin-bottom: 3px;
 }
 
-.questionBtn {
+.questionBtn, .healthBtn, .articleBtn {
   text-align: left;
-}
-
-.healthBtn {
-  width: 18vw;
-  min-width: auto;
-  text-align: left;
-}
-
-.articleBtn {
-  width: 16vw;
-  min-width: auto;
-  text-align: left;
+  width: 100%;
+  max-width: 400px;
 }
 
 .btnIconRight {
@@ -164,24 +154,22 @@
   margin-top: 60px;
 }
 
-
-
 .navbar-brand {
-  background-color: rgb(245,245,245);
+  background-color: rgb(245, 245, 245);
   border-radius: 0 0 12px;
 }
 
 .navbar {
-  background-color: rgb(245,245,245);
+  background-color: rgb(245, 245, 245);
   border-radius: 0 0 0 12px;
   transition: ease 2s;
   a {
-  color: black !important;
-  transition: all 0.2s ease;
+    color: black !important;
+    transition: all 0.2s ease;
 
-  &:hover {
-    color: $secondary-color !important;
-  }
+    &:hover {
+      color: $secondary-color !important;
+    }
   }
 }
 
@@ -204,7 +192,6 @@
   &:hover {
     color: $primary-color !important;
   }
-
 }
 
 .bigIcon {
@@ -224,9 +211,9 @@
 }
 
 #beaker {
-  font-size: .6em;
-  margin-left: .1em;
-  margin-bottom: .04em;
+  font-size: 0.6em;
+  margin-left: 0.1em;
+  margin-bottom: 0.04em;
 }
 
 .sectionImg {
@@ -249,3 +236,14 @@
   width: 90%;
   padding-bottom: 1.5em;
 }
+
+
+
+
+// media queries
+
+@media (max-width: 1200px) {
+  .lgSection {
+  display: none;
+  }
+  }

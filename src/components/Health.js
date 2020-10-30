@@ -24,6 +24,8 @@ function Health() {
           <div id="your-health">
               <Parallax className="scrolling-section" y={[20, -80]}>
                 <h1 className="display-1">Your Health</h1>
+                </Parallax>
+
               <Button
                 onClick={() => setBmiModalShow(true)}
                 bsPrefix="button healthBtn mainCalcBtn"
@@ -47,7 +49,6 @@ function Health() {
                 <BiBarChartAlt className="btnIcon" />
                 Calorie Requirements
               </Button>
-              </Parallax>
 
               <BMIModal
                 show={bmiModalShow}
@@ -63,7 +64,7 @@ function Health() {
               />
           </div>
         </Col>
-        <Col sm>
+        <Col className="lgSection">
         <Parallax className="scrolling-section" y={[200, 50]}>
           <img className="sectionImgAlt" src="photos/pexels-victor-freitas-841130.jpg" alt="Runners" />
           </Parallax>

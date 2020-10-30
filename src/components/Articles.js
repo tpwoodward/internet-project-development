@@ -29,7 +29,7 @@ function Articles() {
             </div>
           </div>
         </Col>
-        <Col sm>
+        <Col className="lgSection">
           <Parallax className="scrolling-section" y={[200, 50]}>
           <img className="sectionImg" src="photos/pexels-ella-olsson-1640777.jpg" alt="Runners" />
           </Parallax>

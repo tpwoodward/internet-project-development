@@ -17,14 +17,12 @@ function Help() {
   return (
     <Container fluid>
       <Row>
-        <Col sm>
+        <Col lg>
           <div id="help">
             <div className="Inner">
               <Parallax className="scrolling-section" y={[-75, 18.75]}>
                 <h1 className="display-2 text-white">Help</h1>
               </Parallax>
-              <Container fluid>
-                <Col sm>
                   <button
                     onClick={() => setModal1Show(true)}
                     className="button questionBtn"
@@ -56,9 +54,6 @@ function Help() {
                     <BiInfoCircle className="btnIcon" />
                     How do I build muscle?
                   </button>
-                </Col>
-                <Col sm></Col>
-              </Container>
 
               <Modal
                 show={Modal1Show}
@@ -227,7 +222,7 @@ function Help() {
             </div>
           </div>
         </Col>
-        <Col sm>
+        <Col className="lgSection">
           <Parallax className="scrolling-section" y={[200, 50]}>
             <img
               className="sectionImg"
