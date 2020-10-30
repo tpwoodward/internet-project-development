@@ -1,22 +1,24 @@
 import React from "react"
 import logo from "../logo.svg"
 
+import { Link } from "react-router-dom"
+
 function SubNav() {
   return (
     <nav>
       <div className="container mw-100 fixed-top">
         <div className="row">
           <div className="col-{breakpoint}-auto">
-            <a className="navbar-brand" href="/">
+            <Link className="navbar-brand" to="/" onClick={() => window.scrollTo(0, 0)}>
               <img src={logo} className="App-logo" alt="logo" />
-            </a>
+            </Link>
           </div>
           <div className="col"></div>
           <div className="col-{breakpoint}-auto">
             <nav className="navbar">
-              <a className="nav-link" href="/">
+              <Link className="nav-link" to="/" onClick={() => window.scrollTo(0, 0)}>
                 Return
-              </a>
+              </Link>
             </nav>
           </div>
         </div>

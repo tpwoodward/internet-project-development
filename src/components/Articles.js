@@ -7,6 +7,8 @@ import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
+import { Link } from "react-router-dom"
+
 function Articles() {
   return (
     <div>
@@ -18,15 +20,15 @@ function Articles() {
               <Parallax className="scrolling-section" y={[-100, 25]}>
                 <h1 className="display-1 text-white">Articles</h1>
               </Parallax>
-              <a href="/hiit-vs-liss" className="button articleBtn mainBtn">
+              <Link to="/hiit-vs-liss" className="button articleBtn mainBtn">
                 <BiRun className="btnIcon" />
                 HIIT vs LISS
-              </a>
+              </Link>
               <br />
-              <a href="/what-are-macros" className="button articleBtn">
+              <Link to="/what-are-macros" className="button articleBtn">
                 <BiFoodMenu className="btnIcon" />
-                What are macros?
-              </a>
+                What Are Macros?
+              </Link>
             </div>
           </div>
         </Col>

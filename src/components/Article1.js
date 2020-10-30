@@ -6,7 +6,7 @@ function Article1() {
     <div className="Article">
       <SubNav />
       <div className="Inner">
-        <h2>HIIT vs LISS</h2>
+        <h1 className="display-1">HIIT vs LISS</h1>
         <p>
           With so many different types of exercise out there to choose from, it
           can be difficult to know which one is best for you and your goals. If

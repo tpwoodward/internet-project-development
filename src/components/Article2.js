@@ -6,7 +6,7 @@ function Article2() {
     <div className="Article">
       <SubNav />
       <div className="Inner">
-        <h2>What are macros?</h2>
+        <h1 className="display-1">What Are Macros?</h1>
         <p>
           Macronutrients, also known as macros, are the three essential
           nutritional components that make up the caloric content of the foods

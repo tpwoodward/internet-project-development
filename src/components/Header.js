@@ -20,11 +20,11 @@ function Header() {
         <Parallax className="scrolling-section" y={[-50, 100]}>
         <a href="#your-health" className="button mainBtn rightBtn">
           <BiCalculator className="btnIcon" />
-          Calculate your health
+          Calculate Your Health
         </a>
         <a href="#articles" className="button leftBtn">
           <BiBookOpen className="btnIcon" />
-          Read helpful articles
+          Read Helpful Articles
         </a>
         </Parallax>
       </div>
