@@ -1,12 +1,19 @@
 import React from "react"
 import SubNav from "./SubNav"
 
+import Container from "react-bootstrap/Container"
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
+
 function Article2() {
   return (
     <div className="Article">
       <SubNav />
       <div className="Inner">
-        <h1 className="display-1">What Are Macros?</h1>
+      <Container fluid>
+      <h1 className="display-1">What Are Macros?</h1>
+      <Row>
+        <Col sm>
         <p>
           Macronutrients, also known as macros, are the three essential
           nutritional components that make up the caloric content of the foods
@@ -26,6 +33,8 @@ function Article2() {
           carbohydrates and proteins contain 4 calories per 1g, whereas fats
           contain 9 calories per gram.
         </p>
+        </Col>
+        <Col sm>
         <p>
           Your ideal macro ratio will depend on your goals and unique
           requirements, which is why it’s important to seek assistance from a
@@ -44,10 +53,13 @@ function Article2() {
         <p className="reference">
           Australian Sports Nutrition. 2019. "Macros 101: What are they and why
           do I need them?" Australian Sports Nutrition.{" "}
-          <a className="link" href="https://tinyurl.com/yy4k3525">
+          <a className="link" href="https://tinyurl.com/y3bxulgn" target="_blank" rel="noopener noreferrer">
             https://tinyurl.com/y3bxulgn
           </a>
         </p>
+        </Col>
+        </Row>
+        </Container>
       </div>
     </div>
   )

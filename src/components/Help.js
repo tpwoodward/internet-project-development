@@ -90,7 +90,7 @@ function Help() {
                       {" "}
                       Laskowski, Edward. 2019. "How much should the average
                       adult exercise every day?" Mayo Clinic.{" "}
-                      <a className="link" href="https://tinyurl.com/yy4k3525">
+                      <a className="link" href="https://tinyurl.com/y9j9okn3" target="_blank" rel="noopener noreferrer">
                         https://tinyurl.com/y9j9okn3
                       </a>
                     </p>
@@ -132,7 +132,7 @@ function Help() {
                       {" "}
                       Mayo Clinic Staff. 2020. "Counting calories: Get back to
                       weight-loss basics." Mayo Clinic.{" "}
-                      <a className="link" href="https://tinyurl.com/yy4k3525">
+                      <a className="link" href="https://tinyurl.com/yd8gkm2f" target="_blank" rel="noopener noreferrer">
                         https://tinyurl.com/yd8gkm2f
                       </a>
                     </p>
@@ -173,7 +173,7 @@ function Help() {
                     <p className="reference">
                       Contreras, Bret. 2014. "To Bulk And Cut Or Not To Bulk And
                       Cut." The Glute Guy.{" "}
-                      <a className="link" href="https://tinyurl.com/yy4k3525">
+                      <a className="link" href="https://tinyurl.com/y58l2c6z" target="_blank" rel="noopener noreferrer">
                         https://tinyurl.com/y58l2c6z
                       </a>
                     </p>
@@ -212,7 +212,7 @@ function Help() {
                     <p className="reference">
                       Rogers, Paul. 2020. "Top 15 Tips for Building Muscle."
                       Verywell Fit.{" "}
-                      <a className="link" href="https://tinyurl.com/yy4k3525">
+                      <a className="link" href="https://tinyurl.com/yy4k3525" target="_blank" rel="noopener noreferrer">
                         https://tinyurl.com/yy4k3525
                       </a>
                     </p>
