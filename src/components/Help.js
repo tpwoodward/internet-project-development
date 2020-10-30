@@ -25,7 +25,7 @@ function Help() {
               </Parallax>
                   <button
                     onClick={() => setModal1Show(true)}
-                    className="button questionBtn"
+                    className="button questionBtn mainbtn2"
                   >
                     <BiInfoCircle className="btnIcon" />
                     How much should I exercise?
