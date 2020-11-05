@@ -8,7 +8,6 @@ import Header from "./components/Header"
 import Articles from "./components/Articles"
 import Health from "./components/Health"
 import Help from "./components/Help"
-import Footer from "./components/Footer"
 
 import Article1 from "./components/Article1"
 import Article2 from "./components/Article2"
@@ -32,7 +31,6 @@ function App() {
             <Articles />
             <Health />
             <Help />
-            <Footer />
           </Route>
         </Switch>
       </div>
