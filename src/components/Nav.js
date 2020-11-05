@@ -1,8 +1,12 @@
 import React from "react"
+
+// import The Health Lab's svg logo
 import logo from "../logo.svg"
 
+// import the Link element from React Router
 import { Link } from "react-router-dom"
 
+// content for the main screen's navigation memu, using React Bootstrap classes
 function Nav() {
   return (
     <nav>
@@ -33,4 +37,5 @@ function Nav() {
   )
 }
 
+// export the functional component for the main nav
 export default Nav

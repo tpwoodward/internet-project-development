@@ -1,24 +1,18 @@
-h1 {
-    color: $primary-color;
-}
+/* altering typography beyond what is defined by React Bootstrap */
 
+h1,
 h2 {
-    color: $primary-color;
+  color: $primary-color;
+  font-weight: 300 !important;
 }
 
-h1, h2 {
-    font-weight: 300 !important;
-}
-
-h3 {
-    font-weight: 400 !important
-}
-
+h3,
 p {
-    font-weight: 400 !important;
+  font-weight: 400 !important;
 }
 
-h5, h6 {
-    color: $secondary-color;
-    font-weight: 400 !important;
+h5,
+h6 {
+  color: $secondary-color;
+  font-weight: 400 !important;
 }

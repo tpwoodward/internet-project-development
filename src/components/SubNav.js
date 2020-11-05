@@ -1,8 +1,12 @@
 import React from "react"
+
+// import The Health Lab's svg logo
 import logo from "../logo.svg"
 
+// import the Link element from React Router
 import { Link } from "react-router-dom"
 
+// content for article subpages' navigation memu, using React Bootstrap classes
 function SubNav() {
   return (
     <nav>
@@ -27,4 +31,5 @@ function SubNav() {
   )
 }
 
+// export the functional component for the secondary nav
 export default SubNav

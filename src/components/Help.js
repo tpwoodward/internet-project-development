@@ -1,22 +1,31 @@
 import React from "react"
+
+// import parallax functionality
 import { Parallax } from "react-scroll-parallax"
 
+// import the functional component containing the footer content
 import Footer from "./Footer"
 
-
+// import the React Bootstrap modal element
 import Modal from "react-bootstrap/Modal"
+
+// import React Bootstrap grid elements
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
+// import an info icon from BoxIcons, through React Icons
 import { BiInfoCircle } from "react-icons/bi"
 
 function Help() {
+
+  // set each of the modals to not be shown by default
   const [Modal1Show, setModal1Show] = React.useState(false)
   const [Modal2Show, setModal2Show] = React.useState(false)
   const [Modal3Show, setModal3Show] = React.useState(false)
   const [Modal4Show, setModal4Show] = React.useState(false)
 
+  // the content for the FAQ segment, including modal trigger buttons as well as each modal's content and the footer
   return (
     <div>
       <Container fluid>
@@ -265,4 +274,5 @@ function Help() {
   )
 }
 
+// export the functional component
 export default Help

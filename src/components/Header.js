@@ -1,11 +1,15 @@
 import React from "react"
+
+// import parallax functionality
 import { Parallax } from "react-scroll-parallax"
 
+// import icons from BoxIcons, through React Icons
 import { BiCalculator, BiBookOpen } from "react-icons/bi"
 
+// functional component containing header content
 function Header() {
   return (
-    <div id="header">
+    <header id="header" className="text-center">
       <div className="inner">
         <Parallax className="scrolling-section" y={[60, -50]}>
         <img
@@ -28,8 +32,9 @@ function Header() {
         </a>
         </Parallax>
       </div>
-    </div>
+    </header>
   )
 }
 
+// export the functional component
 export default Header

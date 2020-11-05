@@ -1,8 +1,51 @@
+/* major segments */
+
+#header,
+#articles,
+#your-health {
+  height: 100vh;
+  padding: 30vh 50px;
+}
+
+.Article,
+#help {
+  height: 100vh;
+  padding: 20vh 50px;
+}
+
+#articles,
+#help {
+  background-color: $primary-color;
+}
+
+/*  navigation menu */
+
 .App-logo {
   height: 2.28em;
   padding: 0;
   margin: 0;
 }
+
+.navbar-brand {
+  background-color: rgb(245, 245, 245);
+  border-radius: 0 0 12px;
+}
+
+.navbar {
+  background-color: rgb(245, 245, 245);
+  border-radius: 0 0 0 12px;
+  transition: ease 2s;
+  a {
+    color: black !important;
+    transition: all 0.2s ease;
+
+    &:hover {
+      color: $secondary-color !important;
+    }
+  }
+}
+
+/* footer */
 
 .App-footer {
   display: flex;
@@ -12,78 +55,31 @@
   height: auto;
 }
 
-#footer-right {
-  align-items: flex-end;
-  justify-content: flex-end;
+/* images */
+
+.sectionImg {
+  max-width: 40vw;
+  border-bottom-color: $primary-color;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  margin-left: 4.5vw;
 }
 
-/* Section height */
-
-#header,
-#articles,
-#your-health {
-  height: 100vh;
-  padding: 30vh 50px;
+.sectionImgAlt {
+  max-width: 40vw;
+  border-bottom-color: $secondary-color;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  margin-left: 4.5vw;
 }
 
-.Article {
-  height: 100vh;
-  padding: 20vh 50px;
+.logoImg {
+  width: 90%;
+  padding-bottom: 1.5em;
 }
 
-#header,
-#articles,
-#your-health,
-.Article,
-#help {
-  background-size: cover;
-  background-color: white;
-}
+/*  buttons */
 
-#header {
-  text-align: center;
-}
-
-#help {
-  height: 100vh;
-  padding: 20vh 50px;
-}
-
-/* Backgrounds */
-
-.App-header {
-  background-color: white;
-  background-position: center;
-}
-
-#articles {
-  background-color: $primary-color;
-  background-position: center;
-}
-
-.Article {
-  background-color: white;
-  background-position: center;
-}
-
-#your-health {
-  background-color: white;
-  background-position: center;
-}
-
-.HealthCalc {
-  background-color: white;
-  background-position: center;
-}
-
-#help {
-  background-color: $primary-color;
-  background-position: center;
-}
-
-/*  Buttons and icons */
-
-/* button */
 .button {
   display: inline-block;
   padding: 10px 20px 8px 20px;
@@ -165,14 +161,9 @@
   }
 }
 
-.btnIcon {
-  color: $primary-color;
-  font-size: 2em;
-  margin-right: 15px;
-  margin-bottom: 3px;
-}
-
-.questionBtn, .healthBtn, .articleBtn {
+.questionBtn,
+.healthBtn,
+.articleBtn {
   text-align: left;
   width: 100%;
   max-width: 400px;
@@ -192,44 +183,17 @@
   margin-top: 30px !important;
 }
 
-.navbar-brand {
-  background-color: rgb(245, 245, 245);
-  border-radius: 0 0 12px;
-}
+/*  icons */
 
-.navbar {
-  background-color: rgb(245, 245, 245);
-  border-radius: 0 0 0 12px;
-  transition: ease 2s;
-  a {
-    color: black !important;
-    transition: all 0.2s ease;
-
-    &:hover {
-      color: $secondary-color !important;
-    }
-  }
+.btnIcon {
+  color: $primary-color;
+  font-size: 2em;
+  margin-right: 15px;
+  margin-bottom: 3px;
 }
 
 .arrow {
   font-size: 2.5em;
-}
-
-.form-control {
-  border-color: $secondary-color !important;
-}
-
-.reference {
-  font-style: italic;
-  color: $secondary-color;
-}
-
-.link {
-  color: $secondary-color;
-  transition: all 0.2s ease;
-  &:hover {
-    color: $primary-color !important;
-  }
 }
 
 .bigIcon {
@@ -248,40 +212,29 @@
   color: $secondary-color;
 }
 
-#beaker {
-  font-size: 0.6em;
-  margin-left: 0.1em;
-  margin-bottom: 0.04em;
+.form-control {
+  border-color: $secondary-color !important;
 }
 
-.sectionImg {
-  max-width: 40vw;
-  border-bottom-color: $primary-color;
-  border-bottom-width: 5px;
-  border-bottom-style: solid;
-  margin-left: 4.5vw;
+/* referencing */
+
+.reference {
+  font-style: italic;
+  color: $secondary-color;
 }
 
-.sectionImgAlt {
-  max-width: 40vw;
-  border-bottom-color: $secondary-color;
-  border-bottom-width: 5px;
-  border-bottom-style: solid;
-  margin-left: 4.5vw;
+.link {
+  color: $secondary-color;
+  transition: all 0.2s ease;
+  &:hover {
+    color: $primary-color !important;
+  }
 }
-
-.logoImg {
-  width: 90%;
-  padding-bottom: 1.5em;
-}
-
-
-
 
 /* media queries */
 
 @media (max-width: 1300px) {
   .lgSection {
-  display: none;
+    display: none;
   }
-  }
+}

@@ -1,10 +1,12 @@
 import React from "react"
 import SubNav from "./SubNav"
 
+// import React Bootstrap grid elements
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
+// functional component containing article information
 function Article1() {
   return (
     <div className="Article">
@@ -50,7 +52,12 @@ function Article1() {
               <p className="reference">
                 Morgan, Maggie. 2020. "3 Differences Between LISS Cardio And
                 HIIT (#3 Is Cool)." Fitbod.{" "}
-                <a className="link" href="https://tinyurl.com/yxudf239" target="_blank" rel="noopener noreferrer">
+                <a
+                  className="link"
+                  href="https://tinyurl.com/yxudf239"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   https://tinyurl.com/yxudf239
                 </a>
               </p>
@@ -62,4 +69,5 @@ function Article1() {
   )
 }
 
+// export the functional component
 export default Article1

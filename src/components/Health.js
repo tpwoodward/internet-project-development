@@ -1,22 +1,31 @@
 import React from "react"
+
+// import parallax functionality
 import { Parallax } from "react-scroll-parallax"
 
+// import icons from BoxIcons, through React Icons
 import { BiBody, BiPieChartAlt2, BiBarChartAlt } from "react-icons/bi"
 
+// import React Bootstrap grid elements
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import Button from "react-bootstrap/Button"
 
+// import the functional components created for the modals in Your Health section
 import BMIModal from "./BMIModal"
 import BodyFatModal from "./BodyFatModal"
 import CaloriesModal from "./CaloriesModal"
 
+// functional component containing content for the Your Health segment of the main screen
 function Health() {
+
+  // set the three modals to not be shown by default
   const [bodyFatModalShow, setBodyFatModalShow] = React.useState(false)
   const [bmiModalShow, setBmiModalShow] = React.useState(false)
   const [caloriesModalShow, setCaloriesModalShow] = React.useState(false)
 
+  // the content for the Your Health segment, including buttons which trigger modals to be visible
   return (
     <Container fluid>
       <Row>
@@ -74,4 +83,5 @@ function Health() {
   )
 }
 
+// export the functional component
 export default Health
