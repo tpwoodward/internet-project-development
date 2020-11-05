@@ -1,7 +1,7 @@
 .App-logo {
   height: 2.28em;
-  padding: none;
-  margin: none;
+  padding: 0;
+  margin: 0;
 }
 
 .App-footer {
@@ -17,7 +17,7 @@
   justify-content: flex-end;
 }
 
-// Section height -----------------------------------------------------------------
+/* Section height */
 
 #header,
 #articles,
@@ -49,7 +49,7 @@
   padding: 20vh 50px;
 }
 
-// Backgrounds ------------------------
+/* Backgrounds */
 
 .App-header {
   background-color: white;
@@ -81,7 +81,7 @@
   background-position: center;
 }
 
-// Buttons and icons -----------------------------------------------------------------
+/*  Buttons and icons */
 
 /* button */
 .button {
@@ -278,7 +278,7 @@
 
 
 
-// media queries
+/* media queries */
 
 @media (max-width: 1300px) {
   .lgSection {
