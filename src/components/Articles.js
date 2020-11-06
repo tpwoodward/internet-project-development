@@ -18,9 +18,9 @@ import { Link } from "react-router-dom"
 function Articles() {
   return (
     <div>
-      <Container fluid>
+      <Container fluid className="mainContainer">
         <Row>
-          <Col sm>
+          <Col sm className="tight">
             <div id="articles">
               <div>
                 <Parallax className="scrolling-section" y={[-100, 25]}>
@@ -41,7 +41,7 @@ function Articles() {
               </div>
             </div>
           </Col>
-          <Col className="lgSection">
+          <Col className="lgSection tight">
             <img
               className="sectionImg"
               src="photos/pexels-ella-olsson-1640777.jpg"

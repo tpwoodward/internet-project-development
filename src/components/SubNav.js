@@ -13,13 +13,13 @@ function SubNav() {
       <div className="container mw-100 fixed-top">
         <div className="row">
           <div className="col-{breakpoint}-auto">
-            <Link className="navbar-brand" to="/" onClick={() => window.scrollTo(0, 0)}>
+            <Link className="navbar-brand sub" to="/" onClick={() => window.scrollTo(0, 0)}>
               <img src={logo} className="App-logo" alt="logo" />
             </Link>
           </div>
           <div className="col"></div>
           <div className="col-{breakpoint}-auto">
-            <nav className="navbar">
+            <nav className="navbar sub">
               <Link className="nav-link" to="/" onClick={() => window.scrollTo(0, 0)}>
                 Return
               </Link>

@@ -9,7 +9,22 @@
 #your-health,
 #help {
   height: 100vh;
-  padding: 20vh 50px;
+  padding: 20vh 80px;
+}
+
+.mainSect {
+  background-image: url("../media/pexels-tirachard-kumtanom-601177.jpg");
+  background-size: 100vw;
+  background-attachment: fixed;
+}
+
+.mainContainer {
+  padding: 0 !important;
+}
+
+.tight {
+  padding-right: 0 !important;
+  margin-right: 0 !important;
 }
 
 .Article {
@@ -53,12 +68,12 @@
 }
 
 .navbar-brand {
-  background-color: rgb(245, 245, 245);
+  background-color: white;
   border-radius: 0 0 12px;
 }
 
 .navbar {
-  background-color: rgb(245, 245, 245);
+  background-color: white;
   border-radius: 0 0 0 12px;
   transition: ease 2s;
   a {
@@ -71,13 +86,17 @@
   }
 }
 
+.sub {
+  background-color: rgb(245, 245, 245);
+}
+
 /* footer */
 
 .App-footer {
   display: flex;
   flex-direction: column;
   padding: 0.75em 0.75em 0 0;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: white;
   height: auto;
 }
 
@@ -272,5 +291,16 @@
 @media (max-width: 1300px) {
   .lgSection {
     display: none;
+  }
+}
+
+@media (max-width: 1700px) {
+  .mainSect {
+    background-image: none;
+  }
+
+  .App-footer, .navbar, .navbar-brand {
+    background-color: rgb(245, 245, 245);
+
   }
 }

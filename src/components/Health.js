@@ -26,9 +26,9 @@ function Health() {
 
   // the content for the Your Health segment, including buttons which trigger modals to be visible
   return (
-    <Container fluid>
+    <Container fluid className="mainContainer">
       <Row>
-        <Col sm>
+        <Col sm className="tight">
           <div id="your-health">
             <Parallax className="scrolling-section" y={[-100, 25]}>
               <h1 className="display-1">Your Health</h1>
@@ -78,7 +78,7 @@ function Health() {
             />
           </div>
         </Col>
-        <Col className="lgSection">
+        <Col className="lgSection tight">
           <img
             className="sectionImgAlt"
             src="photos/pexels-victor-freitas-841130.jpg"

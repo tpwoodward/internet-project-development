@@ -27,9 +27,9 @@ function Help() {
   // the content for the FAQ segment, including modal trigger buttons as well as each modal's content and the footer
   return (
     <div>
-      <Container fluid>
+      <Container fluid className="mainContainer">
         <Row>
-          <Col lg>
+          <Col lg className="tight">
             <div id="help">
                 <Parallax className="scrolling-section" y={[-100, 25]}>
                   <h1 className="display-1 text-white">Help</h1>
@@ -257,7 +257,7 @@ function Help() {
                 </Modal>
             </div>
           </Col>
-          <Col className="lgSection">
+          <Col className="lgSection tight">
             <img
               className="sectionImg"
               src="photos/pexels-andrea-piacquadio-3756165.jpg"
