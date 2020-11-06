@@ -18,7 +18,6 @@ import Col from "react-bootstrap/Col"
 import { BiInfoCircle } from "react-icons/bi"
 
 function Help() {
-
   // set each of the modals to not be shown by default
   const [Modal1Show, setModal1Show] = React.useState(false)
   const [Modal2Show, setModal2Show] = React.useState(false)
@@ -258,13 +257,11 @@ function Help() {
             </div>
           </Col>
           <Col className="lgSection">
-            <Parallax className="scrolling-section" y={[200, 50]}>
-              <img
-                className="sectionImg"
-                src="photos/pexels-andrea-piacquadio-3756165.jpg"
-                alt="Runners shot sourced from Pexels"
-              />
-            </Parallax>
+            <img
+              className="sectionImg"
+              src="photos/pexels-andrea-piacquadio-3756165.jpg"
+              alt="Runners shot sourced from Pexels"
+            />
           </Col>
         </Row>
       </Container>
