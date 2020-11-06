@@ -1,14 +1,19 @@
 import React from "react"
+
+// import scss
 import "./scss/master.scss"
 
+// import required React Router functionality
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
+// import main segments
 import Nav from "./components/Nav"
 import Header from "./components/Header"
 import Articles from "./components/Articles"
 import Health from "./components/Health"
 import Help from "./components/Help"
 
+// import article segments
 import Article1 from "./components/Article1"
 import Article2 from "./components/Article2"
 
