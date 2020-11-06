@@ -18,7 +18,7 @@ function Article1() {
               <h1 className="display-2">HIIT vs LISS</h1>
               <img
                 className="img100"
-                src="photos/pexels-li-sun-2294354.png"
+                src="photos/pexels-li-sun-2294354.jpg"
                 alt="Planking shot sourced from Pexels"
               />
               <p>

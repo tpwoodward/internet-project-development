@@ -18,7 +18,7 @@ function Article2() {
             <Col>
               <img
                 className="img100"
-                src="photos/pexels-daria-shevtsova-1095550-cropped.jpg"
+                src="photos/pexels-daria-shevtsova-1095550.jpg"
                 alt="Planking shot sourced from Pexels"
               />
               <p>
