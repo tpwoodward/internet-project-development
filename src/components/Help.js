@@ -31,12 +31,15 @@ function Help() {
         <Row>
           <Col lg>
             <div id="help">
-                <Parallax className="scrolling-section" y={[-75, 18.75]}>
+                <Parallax className="scrolling-section" y={[-100, 25]}>
                   <h1 className="display-1 text-white">Help</h1>
                 </Parallax>
+                <p className="btnCaption2">
+                  Frequently asked questions for beginners.
+                </p>
                 <button
                   onClick={() => setModal1Show(true)}
-                  className="button questionBtn mainbtn2"
+                  className="button questionBtn"
                 >
                   <BiInfoCircle className="btnIcon" />
                   How much should I exercise?

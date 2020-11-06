@@ -30,7 +30,7 @@ function Health() {
       <Row>
         <Col sm>
           <div id="your-health">
-            <Parallax className="scrolling-section" y={[20, -80]}>
+            <Parallax className="scrolling-section" y={[-100, 25]}>
               <h1 className="display-1">Your Health</h1>
             </Parallax>
 
@@ -41,7 +41,9 @@ function Health() {
               <BiBody className="btnIcon" />
               Body Mass Index
             </Button>
-            <br />
+            <p className="btnCaption">
+              Your Body Mass Index (BMI) is based on your height-to-weight ratio. A healthy BMI is between 18 and 25.
+            </p>
             <Button
               onClick={() => setBodyFatModalShow(true)}
               bsPrefix="button healthBtn"
@@ -49,7 +51,9 @@ function Health() {
               <BiPieChartAlt2 className="btnIcon" />
               Body Fat Percentage
             </Button>
-            <br />
+            <p className="btnCaption">
+              Calculating body fat percentage describes your body composition.
+            </p>
             <Button
               onClick={() => setCaloriesModalShow(true)}
               bsPrefix="button healthBtn"
@@ -57,7 +61,9 @@ function Health() {
               <BiBarChartAlt className="btnIcon" />
               Calorie Requirements
             </Button>
-
+            <p className="btnCaption">
+                To gain or lose weight, you need to eat above or below your daily caloric requirements.
+            </p>
             <BMIModal
               show={bmiModalShow}
               onHide={() => setBmiModalShow(false)}

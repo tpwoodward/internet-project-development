@@ -26,12 +26,15 @@ function Articles() {
                 <Parallax className="scrolling-section" y={[-100, 25]}>
                   <h1 className="display-1 text-white">Articles</h1>
                 </Parallax>
-                <Link to="/hiit-vs-liss" className="button articleBtn mainBtn">
+                <p className="btnCaption2">
+                  View these introductory articles and get started on your fitness journey!
+                </p>
+                <Link to="/hiit-vs-liss" className="button articleBtn" onClick={() => window.scrollTo(0, 0)}>
                   <BiRun className="btnIcon" />
                   HIIT vs LISS
                 </Link>
                 <br />
-                <Link to="/what-are-macros" className="button articleBtn">
+                <Link to="/what-are-macros" className="button articleBtn" onClick={() => window.scrollTo(0, 0)}>
                   <BiFoodMenu className="btnIcon" />
                   What Are Macros?
                 </Link>
