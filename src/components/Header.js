@@ -10,7 +10,6 @@ import { BiCalculator, BiBookOpen } from "react-icons/bi"
 function Header() {
   return (
     <header id="header" className="text-center">
-      <div className="inner">
         <Parallax className="scrolling-section" y={[60, -50]}>
         <img
               className="logoImg"
@@ -31,7 +30,6 @@ function Header() {
           Read Helpful Articles
         </a>
         </Parallax>
-      </div>
     </header>
   )
 }

@@ -31,7 +31,6 @@ function Help() {
         <Row>
           <Col lg>
             <div id="help">
-              <div className="Inner">
                 <Parallax className="scrolling-section" y={[-75, 18.75]}>
                   <h1 className="display-1 text-white">Help</h1>
                 </Parallax>
@@ -253,7 +252,6 @@ function Help() {
                     </Modal.Body>
                   </div>
                 </Modal>
-              </div>
             </div>
           </Col>
           <Col className="lgSection">

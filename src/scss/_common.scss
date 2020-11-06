@@ -7,10 +7,32 @@
   padding: 30vh 50px;
 }
 
-.Article,
 #help {
   height: 100vh;
   padding: 20vh 50px;
+}
+
+.Article {
+  max-width: 800px;
+  width: 95vw;
+  height: 100vh;
+  padding-top: 7.5vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.ArticleContainer {
+  padding-bottom: 5vh;
+}
+
+.img100 {
+  max-width: 800px;
+  width: 90vw;
+  padding-top: 1em;
+  padding-bottom: 2em;
 }
 
 #articles,

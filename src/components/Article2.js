@@ -9,13 +9,37 @@ import Col from "react-bootstrap/Col"
 // functional component containing article information
 function Article2() {
   return (
-    <div className="Article">
+    <div>
       <SubNav />
-      <div className="Inner">
-        <Container fluid>
-          <h1 className="display-1">What Are Macros?</h1>
+      <div className="Article">
+        <Container fluid className="ArticleContainer">
+          <h1 className="display-2">What Are Macros?</h1>
           <Row>
-            <Col sm>
+            <Col>
+              <img
+                className="img100"
+                src="photos/pexels-daria-shevtsova-1095550-cropped.jpg"
+                alt="Planking shot sourced from Pexels"
+              />
+              <p>
+                In today’s day and age, we are inundated with health blogs,
+                Facebook posts, and Instagram ads that all throw around the word
+                ‘macros’ like it’s going out of fashion. Thankfully, for any
+                fitness buffs or health enthusiasts who live and breathe macros,
+                there is some great truth and benefits behind the philosophy of
+                counting macros. Gone are the days of counting calories and
+                having little focus on the quality of the nutrients we’re
+                actually consuming. With the rise of the ‘macro’ phenomenon, we
+                now have a much healthier, safer and more effective way of
+                reaching our goals faster.
+              </p>
+              <p>
+                To understand macros and how to use them to your benefit, it’s
+                important to first understand exactly what they are. Essential
+                nutrients are compounds that your body can’t produce on its own,
+                or cannot produce an adequate amount of. As such, these
+                nutrients must be sourced from food.
+              </p>
               <p>
                 Macronutrients, also known as macros, are the three essential
                 nutritional components that make up the caloric content of the
@@ -35,8 +59,6 @@ function Article2() {
                 According to Healthline, both carbohydrates and proteins contain
                 4 calories per 1g, whereas fats contain 9 calories per gram.
               </p>
-            </Col>
-            <Col sm>
               <p>
                 Your ideal macro ratio will depend on your goals and unique
                 requirements, which is why it’s important to seek assistance

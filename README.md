@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Hi Dan! Please run "npm install" in the terminal before running "npm start" as node modules were removed to allow for a smooth upload to Blackboard with a smaller file size.
 
+I have included social media share buttons in the footer, which share the main screen of the site.
+
 ## Available Scripts
 
 In the project directory, you can run:

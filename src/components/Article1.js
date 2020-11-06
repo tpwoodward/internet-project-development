@@ -9,13 +9,18 @@ import Col from "react-bootstrap/Col"
 // functional component containing article information
 function Article1() {
   return (
-    <div className="Article">
+    <div>
       <SubNav />
-      <div className="Inner">
-        <Container fluid>
-          <h1 className="display-1">HIIT vs LISS</h1>
+      <div className="Article">
+        <Container fluid className="ArticleContainer">
           <Row>
-            <Col sm>
+            <Col>
+              <h1 className="display-2">HIIT vs LISS</h1>
+              <img
+                className="img100"
+                src="photos/pexels-li-sun-2294354.png"
+                alt="Planking shot sourced from Pexels"
+              />
               <p>
                 With so many different types of exercise out there to choose
                 from, it can be difficult to know which one is best for you and
@@ -27,15 +32,29 @@ function Article1() {
                 cardio and HIIT.
               </p>
               <p>
-                So what are the differences between HIIT and LISS Cardio? HIIT,
-                or High-Intensity Interval Training, is short in duration
-                (5-20-minutes) and higher in intensity. LISS, or Low-Intensity
-                Steady-State, is longer in duration (30-60 minutes) and lower in
-                intensity. HIIT is also more efficient at burning calories than
-                LISS.
+                LISS cardio, or low-intensity steady-state cardio, is a form of
+                cardio exercise where you maintain the same low-intensity pace
+                (that is, a steady-state) for a set period of time, usually for
+                a minimum of 30 minutes. It’s performed at a steady pace so that
+                you can sustain your energy for the entire duration. Some
+                examples of this could be biking, running, brisk walking, rowing
+                or swimming.
               </p>
-            </Col>
-            <Col sm>
+              <p>
+                HIIT stands for high-intensity interval training, which is
+                another form of cardio-based training but involves short bursts
+                of very hard, or high intensity, work followed by recovery
+                periods of low-intensity activity or rest.
+              </p>
+              <p>
+                Three days a week is a good amount of HIIT. You want to make
+                sure you’re allowing your body to rest and recover between
+                sessions, which can take up to 24 hours. Since you are burning
+                more calories, you don’t need as many sessions throughout the
+                week when compared to steady-state cardio. Also, we know that it
+                is much higher in intensity and therefore you cannot be doing it
+                every day and be adequately recovered.
+              </p>
               <p>
                 While both HIIT and LISS have their own benefits, the
                 differences between the two can help you understand which is
