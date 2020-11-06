@@ -20,9 +20,7 @@ function App() {
           renders the first one that matches the current URL. */}
         <Switch>
           <Route path="/hiit-vs-liss">
-            <div className="mainSect">
-              <Article1 />
-            </div>
+            <Article1 />
           </Route>
           <Route path="/what-are-macros">
             <Article2 />
