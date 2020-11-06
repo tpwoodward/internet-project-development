@@ -35,31 +35,9 @@
   padding-bottom: 5vh;
 }
 
-.img100 {
-  max-width: 850px;
-  width: 90vw;
-  padding-top: 1em;
-  padding-bottom: 2em;
-}
-
 #articles,
 #help {
   background-color: $primary-color;
-}
-
-.lgSection {
-  padding-top: 25vh;
-}
-
-/* remove spaces */
-
-.mainContainer {
-  padding: 0 !important;
-}
-
-.tight {
-  padding-right: 0 !important;
-  margin-right: 0 !important;
 }
 
 .Article {
@@ -74,7 +52,52 @@
   transform: translate(-50%, -50%);
 }
 
-/*  navigation menu */
+/* images */
+
+.img100 {
+  max-width: 850px;
+  width: 90vw;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+.lgSection {
+  padding-top: 28vh;
+}
+
+.sectionImg {
+  max-width: 40vw;
+  border-bottom-color: $primary-color;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  margin-left: 4.5vw;
+}
+
+.sectionImgAlt {
+  max-width: 40vw;
+  border-bottom-color: $secondary-color;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  margin-left: 4.5vw;
+}
+
+.logoImg {
+  width: 90%;
+  padding-bottom: 1.5em;
+}
+
+/* remove spaces */
+
+.mainContainer {
+  padding: 0 !important;
+}
+
+.tight {
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* navigation */
 
 .App-logo {
   height: 2.28em;
@@ -113,29 +136,6 @@
   padding: 0.75em 0.75em 0 0;
   background-color: white;
   height: auto;
-}
-
-/* images */
-
-.sectionImg {
-  max-width: 40vw;
-  border-bottom-color: $primary-color;
-  border-bottom-width: 5px;
-  border-bottom-style: solid;
-  margin-left: 4.5vw;
-}
-
-.sectionImgAlt {
-  max-width: 40vw;
-  border-bottom-color: $secondary-color;
-  border-bottom-width: 5px;
-  border-bottom-style: solid;
-  margin-left: 4.5vw;
-}
-
-.logoImg {
-  width: 90%;
-  padding-bottom: 1.5em;
 }
 
 /*  buttons */
@@ -313,7 +313,7 @@
     display: none;
   }
   .parallax-inner {
-    transform: translate3d(0,0,0) !important;
+    transform: translate3d(0, 0, 0) !important;
   }
 }
 

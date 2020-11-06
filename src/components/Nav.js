@@ -6,7 +6,7 @@ import logo from "../logo.svg"
 // import the Link element from React Router
 import { Link } from "react-router-dom"
 
-// content for the main screen's navigation memu, using React Bootstrap classes
+// content for the main screen's navigation menu, using React Bootstrap classes
 function Nav() {
   return (
     <nav>

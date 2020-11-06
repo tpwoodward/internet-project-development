@@ -1,4 +1,6 @@
 import React from "react"
+
+// import secondary nav bar
 import SubNav from "./SubNav"
 
 // import React Bootstrap grid elements

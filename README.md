@@ -1,10 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Note for Dan
+## Intro to Project
 
-Hi Dan! Please run "npm install" in the terminal before running "npm start" as node modules were removed to allow for a smooth upload to Blackboard with a smaller file size.
+Please run `npm install` in the terminal before running `npm start` as node modules were removed to allow me to upload to Blackboard with a smaller file size.
 
 I have included social media share buttons in the footer, which share the main screen of the site.
+
+The file structure is based on Create React App, with a folder containing my SASS files in the src folder.
+
+The components folder under src includes JavaScript files for all the main segments that are viewed in the various routes, with separate files for the three largest modals, the footer and the navigation menus.
+
+The primary menu uses anchor tags for content displayed on the main screen, so a secondary menu is shown on routes other than `/` because the anchor tags do not exist on those screens.
+
+Build functionality is a feature of Create React App, which chunks minified JavaScript and CSS code over multiple files.
 
 ## Available Scripts
 

@@ -1,4 +1,6 @@
 import React from "react"
+
+// import secondary nav bar
 import SubNav from "./SubNav"
 
 // import React Bootstrap grid elements
@@ -49,31 +51,50 @@ function Article1() {
                 periods of low-intensity activity or rest.
               </p>
               <h2>HIIT vs LISS: Pros &amp; Cons</h2>
-              <p><strong>HIIT pros</strong></p>
+              <p>
+                <strong>HIIT pros</strong>
+              </p>
               <ul>
                 <li>Burns more calories in a shorter amount of time</li>
-                <li>Doesn’t require many sessions in a week to achieve results</li>
+                <li>
+                  Doesn’t require many sessions in a week to achieve results
+                </li>
                 <li>Increases metabolic rate</li>
                 <li>Preserves muscle mass</li>
-                <li>Combines aerobic exercise with resistance training which can provide a stimulus for muscle growth</li>
+                <li>
+                  Combines aerobic exercise with resistance training which can
+                  provide a stimulus for muscle growth
+                </li>
                 <li>Incorporates a lot of variety in movements</li>
               </ul>
-              <p><strong>HIIT cons</strong></p>
+              <p>
+                <strong>HIIT cons</strong>
+              </p>
               <ul>
                 <li>The intensity of the workouts can cause muscle soreness</li>
                 <li>Can’t be performed every day</li>
                 <li>Can lead to overtraining</li>
-                <li>Increased risk of injury if technique on exercises is compromised</li>
+                <li>
+                  Increased risk of injury if technique on exercises is
+                  compromised
+                </li>
               </ul>
-              <p><strong>LISS pros</strong></p>
+              <p>
+                <strong>LISS pros</strong>
+              </p>
               <ul>
                 <li>Improves cardiovascular health</li>
                 <li>Fast rate of recovery</li>
               </ul>
-              <p><strong>LISS cons</strong></p>
+              <p>
+                <strong>LISS cons</strong>
+              </p>
               <ul>
                 <li>May cause a decrease of muscle mass</li>
-                <li>Can cause injuries from overuse (doing the same movements each session)</li>
+                <li>
+                  Can cause injuries from overuse (doing the same movements each
+                  session)
+                </li>
               </ul>
               <h2>Final Thoughts</h2>
               <p>

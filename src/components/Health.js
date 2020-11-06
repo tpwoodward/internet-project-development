@@ -6,7 +6,7 @@ import { Parallax } from "react-scroll-parallax"
 // import icons from BoxIcons, through React Icons
 import { BiBody, BiPieChartAlt2, BiBarChartAlt } from "react-icons/bi"
 
-// import React Bootstrap grid elements
+// import React Bootstrap grid and button elements 
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
@@ -35,7 +35,7 @@ function Health() {
             </Parallax>
 
             <Button
-            className="topBtn"
+              className="topBtn"
               onClick={() => setBmiModalShow(true)}
               bsPrefix="button healthBtn mainCalcBtn"
             >

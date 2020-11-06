@@ -12,6 +12,7 @@ import Header from "./components/Header"
 import Articles from "./components/Articles"
 import Health from "./components/Health"
 import Help from "./components/Help"
+import Footer from "./components/Footer"
 
 // import article segments
 import Article1 from "./components/Article1"
@@ -37,6 +38,7 @@ function App() {
               <Articles />
               <Health />
               <Help />
+              <Footer />
             </div>
           </Route>
         </Switch>

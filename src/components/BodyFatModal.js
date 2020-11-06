@@ -1,4 +1,3 @@
-// import useState from React so that state can be used
 import React, { useState } from "react"
 
 // import elements to be used for modal from React Bootstrap
