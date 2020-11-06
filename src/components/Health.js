@@ -30,11 +30,12 @@ function Health() {
       <Row>
         <Col sm className="tight">
           <div id="your-health">
-            <Parallax className="scrolling-section" y={[-100, 25]}>
+            <Parallax className="scrolling-section" y={[-100, 15]}>
               <h1 className="display-1">Your Health</h1>
             </Parallax>
 
             <Button
+            className="topBtn"
               onClick={() => setBmiModalShow(true)}
               bsPrefix="button healthBtn mainCalcBtn"
             >

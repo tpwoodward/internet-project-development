@@ -23,7 +23,7 @@ function Articles() {
           <Col sm className="tight">
             <div id="articles">
               <div>
-                <Parallax className="scrolling-section" y={[-100, 25]}>
+                <Parallax className="scrolling-section" y={[-100, 15]}>
                   <h1 className="display-1 text-white">Articles</h1>
                 </Parallax>
                 <p className="btnCaption2">

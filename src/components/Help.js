@@ -31,7 +31,7 @@ function Help() {
         <Row>
           <Col lg className="tight">
             <div id="help">
-              <Parallax className="scrolling-section" y={[-100, 25]}>
+              <Parallax className="scrolling-section" y={[-100, 15]}>
                 <h1 className="display-1 text-white">Help</h1>
               </Parallax>
               <p className="btnCaption2">

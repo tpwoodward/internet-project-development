@@ -2,7 +2,7 @@
 
 #header {
   height: 100vh;
-  min-height: 630px;
+  min-height: 650px;
   padding: 30vh 50px;
 }
 
@@ -14,15 +14,15 @@
 }
 
 #articles {
-  min-height: 580px;
+  min-height: 660px;
 }
 
 #your-health {
-  min-height: 800px;
+  min-height: 1050px;
 }
 
 #help {
-  min-height: 720px;
+  min-height: 850px;
 }
 
 .mainSect {
@@ -231,12 +231,14 @@
 
 .btnCaption {
   max-width: 360px;
+  padding-bottom: 15px;
 }
 
 .btnCaption2 {
   max-width: 400px;
   color: white;
   font-size: 1.05em;
+  padding-bottom: 15px;
 }
 
 .btnIconRight {
