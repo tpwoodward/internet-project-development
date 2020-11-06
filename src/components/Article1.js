@@ -31,6 +31,7 @@ function Article1() {
                 answer this, you need to understand the differences between LISS
                 cardio and HIIT.
               </p>
+              <h2>What is LISS Cardio?</h2>
               <p>
                 LISS cardio, or low-intensity steady-state cardio, is a form of
                 cardio exercise where you maintain the same low-intensity pace
@@ -40,21 +41,41 @@ function Article1() {
                 examples of this could be biking, running, brisk walking, rowing
                 or swimming.
               </p>
+              <h2>What is HIIT?</h2>
               <p>
                 HIIT stands for high-intensity interval training, which is
                 another form of cardio-based training but involves short bursts
                 of very hard, or high intensity, work followed by recovery
                 periods of low-intensity activity or rest.
               </p>
-              <p>
-                Three days a week is a good amount of HIIT. You want to make
-                sure you’re allowing your body to rest and recover between
-                sessions, which can take up to 24 hours. Since you are burning
-                more calories, you don’t need as many sessions throughout the
-                week when compared to steady-state cardio. Also, we know that it
-                is much higher in intensity and therefore you cannot be doing it
-                every day and be adequately recovered.
-              </p>
+              <h2>HIIT vs LISS: Pros &amp; Cons</h2>
+              <p><strong>HIIT pros</strong></p>
+              <ul>
+                <li>Burns more calories in a shorter amount of time</li>
+                <li>Doesn’t require many sessions in a week to achieve results</li>
+                <li>Increases metabolic rate</li>
+                <li>Preserves muscle mass</li>
+                <li>Combines aerobic exercise with resistance training which can provide a stimulus for muscle growth</li>
+                <li>Incorporates a lot of variety in movements</li>
+              </ul>
+              <p><strong>HIIT cons</strong></p>
+              <ul>
+                <li>The intensity of the workouts can cause muscle soreness</li>
+                <li>Can’t be performed every day</li>
+                <li>Can lead to overtraining</li>
+                <li>Increased risk of injury if technique on exercises is compromised</li>
+              </ul>
+              <p><strong>LISS pros</strong></p>
+              <ul>
+                <li>Improves cardiovascular health</li>
+                <li>Fast rate of recovery</li>
+              </ul>
+              <p><strong>LISS cons</strong></p>
+              <ul>
+                <li>May cause a decrease of muscle mass</li>
+                <li>Can cause injuries from overuse (doing the same movements each session)</li>
+              </ul>
+              <h2>Final Thoughts</h2>
               <p>
                 While both HIIT and LISS have their own benefits, the
                 differences between the two can help you understand which is
@@ -68,7 +89,8 @@ function Article1() {
                 for heart health, endurance and the lower intensity nature of
                 LISS workouts means your body can recover quickly.
               </p>
-              <p className="reference">
+              <h2>Reference</h2>
+              <p>
                 Morgan, Maggie. 2020. "3 Differences Between LISS Cardio And
                 HIIT (#3 Is Cool)." Fitbod.{" "}
                 <a

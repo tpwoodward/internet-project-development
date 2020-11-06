@@ -13,7 +13,7 @@ function Article2() {
       <SubNav />
       <div className="Article">
         <Container fluid className="ArticleContainer">
-          <h1 className="display-2">What Are Macros?</h1>
+          <h1 className="display-2">Macros 101</h1>
           <Row>
             <Col>
               <img
@@ -33,13 +33,19 @@ function Article2() {
                 now have a much healthier, safer and more effective way of
                 reaching our goals faster.
               </p>
+              <h2>What are Macros?</h2>
               <p>
                 To understand macros and how to use them to your benefit, it’s
                 important to first understand exactly what they are. Essential
                 nutrients are compounds that your body can’t produce on its own,
                 or cannot produce an adequate amount of. As such, these
-                nutrients must be sourced from food.
+                nutrients must be sourced from food. Essential nutrients can be
+                broken down into two categories:
               </p>
+              <ul>
+                <li>Macronutrients</li>
+                <li>Micronutrients</li>
+              </ul>
               <p>
                 Macronutrients, also known as macros, are the three essential
                 nutritional components that make up the caloric content of the
@@ -49,6 +55,7 @@ function Article2() {
                 energy required to go about our daily tasks - from work and
                 chores to exercise… but that’s not all they have to offer!
               </p>
+              <h2>What do Macros do?</h2>
               <p>
                 As the name suggests, macronutrients are nutrients, and
                 nutrients are substances required for growth, tissue repair,
@@ -59,6 +66,7 @@ function Article2() {
                 According to Healthline, both carbohydrates and proteins contain
                 4 calories per 1g, whereas fats contain 9 calories per gram.
               </p>
+              <h2>So, what should your breakup of macros be?</h2>
               <p>
                 Your ideal macro ratio will depend on your goals and unique
                 requirements, which is why it’s important to seek assistance
@@ -75,9 +83,10 @@ function Article2() {
                 the package, weigh the amount you’ve had, and all the
                 calculations are done for you.
               </p>
-              <p className="reference">
+              <h2>Reference</h2>
+              <p>
                 Australian Sports Nutrition. 2019. "Macros 101: What are they
-                and why do I need them?" Australian Sports Nutrition.{" "}
+                and why do I need them?"{" "}
                 <a
                   className="link"
                   href="https://tinyurl.com/y3bxulgn"

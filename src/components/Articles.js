@@ -45,7 +45,7 @@ function Articles() {
                   onClick={() => window.scrollTo(0, 0)}
                 >
                   <BiFoodMenu className="btnIcon" />
-                  What Are Macros?
+                  Macros 101
                 </Link>
               </div>
             </div>

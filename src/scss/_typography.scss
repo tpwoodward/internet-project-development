@@ -1,9 +1,14 @@
 /* overriding typography which was initially defined by React Bootstrap */
 
-h1,
-h2 {
+h1 {
   color: $primary-color;
   font-weight: 300 !important;
+}
+
+h2 {
+  color: $secondary-color;
+  padding-top: .5em;
+  padding-bottom: .25em;
 }
 
 h3,
