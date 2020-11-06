@@ -13,7 +13,11 @@ function Nav() {
       <div className="container mw-100 fixed-top">
         <div className="row">
           <div className="col-{breakpoint}-auto">
-            <Link className="navbar-brand" to="/" onClick={() => window.scrollTo(0, 0)}>
+            <Link
+              className="navbar-brand"
+              to="/"
+              onClick={() => window.scrollTo(0, 0)}
+            >
               <img src={logo} className="App-logo" alt="logo" />
             </Link>
           </div>

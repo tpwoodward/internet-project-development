@@ -1,7 +1,7 @@
 // import useState from React so that state can be used
 import React, { useState } from "react"
 
-// import elements to be used for modal from React Bootstrap 
+// import elements to be used for modal from React Bootstrap
 import Button from "react-bootstrap/Button"
 import Form from "react-bootstrap/Form"
 import Modal from "react-bootstrap/Modal"
@@ -13,7 +13,6 @@ import Col from "react-bootstrap/Col"
 
 // functional component containing content for the BMI modal
 function BMIModal(props) {
-
   // defining data, making it relate to State
   const [data, setData] = useState()
 

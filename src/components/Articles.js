@@ -27,14 +27,23 @@ function Articles() {
                   <h1 className="display-1 text-white">Articles</h1>
                 </Parallax>
                 <p className="btnCaption2">
-                  View these introductory articles and get started on your fitness journey!
+                  View these introductory articles and get started on your
+                  fitness journey!
                 </p>
-                <Link to="/hiit-vs-liss" className="button articleBtn" onClick={() => window.scrollTo(0, 0)}>
+                <Link
+                  to="/hiit-vs-liss"
+                  className="button articleBtn"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
                   <BiRun className="btnIcon" />
                   HIIT vs LISS
                 </Link>
                 <br />
-                <Link to="/what-are-macros" className="button articleBtn" onClick={() => window.scrollTo(0, 0)}>
+                <Link
+                  to="/what-are-macros"
+                  className="button articleBtn"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
                   <BiFoodMenu className="btnIcon" />
                   What Are Macros?
                 </Link>

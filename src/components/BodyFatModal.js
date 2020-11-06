@@ -1,7 +1,7 @@
 // import useState from React so that state can be used
 import React, { useState } from "react"
 
-// import elements to be used for modal from React Bootstrap 
+// import elements to be used for modal from React Bootstrap
 import Button from "react-bootstrap/Button"
 import Form from "react-bootstrap/Form"
 import Modal from "react-bootstrap/Modal"
@@ -166,7 +166,9 @@ function BodyFatModal(props) {
               <h3>Result</h3>
               {data ? (
                 <>
-                  <p>No body fat percentage test is 100% accurate, so here are your results for two methods!
+                  <p>
+                    No body fat percentage test is 100% accurate, so here are
+                    your results for two methods!
                   </p>
 
                   <h5>U.S. Navy Method</h5>

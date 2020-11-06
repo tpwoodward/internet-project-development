@@ -25,7 +25,7 @@ function App() {
             </div>
           </Route>
           <Route path="/what-are-macros">
-              <Article2 />
+            <Article2 />
           </Route>
           <Route path="/">
             <Nav />

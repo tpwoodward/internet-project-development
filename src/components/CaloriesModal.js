@@ -1,7 +1,7 @@
 // import useState from React so that state can be used
 import React, { useState } from "react"
 
-// import elements to be used for modal from React Bootstrap 
+// import elements to be used for modal from React Bootstrap
 import Button from "react-bootstrap/Button"
 import Form from "react-bootstrap/Form"
 import Modal from "react-bootstrap/Modal"
@@ -13,7 +13,6 @@ import Col from "react-bootstrap/Col"
 
 // functional component containing content for the Calorie Requirements modal
 function CaloriesModal(props) {
-  
   // defining data, making it relate to State
   const [data, setData] = useState()
 
@@ -124,27 +123,47 @@ function CaloriesModal(props) {
               </Form>
             </Col>
             <Col sm>
-            <h3>Result</h3>
-            {data ? (
-              <>
-              <h5>Exercise 1-3 times/week</h5>
-              <p>
-              {Number(JSON.stringify(data.data["Exercise 1-3 times/week"])).toFixed(0)} cal
-              </p>
-              <h5>Exercise 4-5 times/week</h5>
-              <p>
-              {Number(JSON.stringify(data.data["Exercise 4-5 times/week"])).toFixed(0)} cal
-              </p>
-              <h5>Intense exercise 3-4 times/week</h5>
-              <p>
-              {Number(JSON.stringify(data.data["Daily exercise or intense exercise 3-4 times/week"])).toFixed(0)} cal
-              </p>
-              <h5>Intense exercise 6-7 times/week</h5>
-              <p>
-              {Number(JSON.stringify(data.data["Intense exercise 6-7 times/week"])).toFixed(0)} cal
-              </p>
-              </>
-            ) : "Press 'Calculate' to see your result"}
+              <h3>Result</h3>
+              {data ? (
+                <>
+                  <h5>Exercise 1-3 times/week</h5>
+                  <p>
+                    {Number(
+                      JSON.stringify(data.data["Exercise 1-3 times/week"])
+                    ).toFixed(0)}{" "}
+                    cal
+                  </p>
+                  <h5>Exercise 4-5 times/week</h5>
+                  <p>
+                    {Number(
+                      JSON.stringify(data.data["Exercise 4-5 times/week"])
+                    ).toFixed(0)}{" "}
+                    cal
+                  </p>
+                  <h5>Intense exercise 3-4 times/week</h5>
+                  <p>
+                    {Number(
+                      JSON.stringify(
+                        data.data[
+                          "Daily exercise or intense exercise 3-4 times/week"
+                        ]
+                      )
+                    ).toFixed(0)}{" "}
+                    cal
+                  </p>
+                  <h5>Intense exercise 6-7 times/week</h5>
+                  <p>
+                    {Number(
+                      JSON.stringify(
+                        data.data["Intense exercise 6-7 times/week"]
+                      )
+                    ).toFixed(0)}{" "}
+                    cal
+                  </p>
+                </>
+              ) : (
+                "Press 'Calculate' to see your result"
+              )}
             </Col>
           </Row>
         </Container>

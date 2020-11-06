@@ -18,6 +18,28 @@
   background-attachment: fixed;
 }
 
+.ArticleContainer {
+  padding-bottom: 5vh;
+}
+
+.img100 {
+  max-width: 800px;
+  width: 90vw;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+#articles,
+#help {
+  background-color: $primary-color;
+}
+
+.lgSection {
+  padding-top: 25vh;
+}
+
+/* remove spaces */
+
 .mainContainer {
   padding: 0 !important;
 }
@@ -37,26 +59,6 @@
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-}
-
-.ArticleContainer {
-  padding-bottom: 5vh;
-}
-
-.img100 {
-  max-width: 800px;
-  width: 90vw;
-  padding-top: 1em;
-  padding-bottom: 2em;
-}
-
-#articles,
-#help {
-  background-color: $primary-color;
-}
-
-.lgSection {
-  padding-top: 25vh;
 }
 
 /*  navigation menu */
@@ -298,5 +300,5 @@
   .mainSect {
     background-size: cover;
     background-position: center;
-    }
+  }
 }

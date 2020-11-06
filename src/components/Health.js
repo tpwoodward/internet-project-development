@@ -42,7 +42,8 @@ function Health() {
               Body Mass Index
             </Button>
             <p className="btnCaption">
-              Your Body Mass Index (BMI) is based on your height-to-weight ratio. A healthy BMI is between 18 and 25.
+              Your Body Mass Index (BMI) is based on your height-to-weight
+              ratio. A healthy BMI is between 18 and 25.
             </p>
             <Button
               onClick={() => setBodyFatModalShow(true)}
@@ -62,7 +63,8 @@ function Health() {
               Calorie Requirements
             </Button>
             <p className="btnCaption">
-                To gain or lose weight, you need to eat above or below your daily caloric requirements.
+              To gain or lose weight, you need to eat above or below your daily
+              caloric requirements.
             </p>
             <BMIModal
               show={bmiModalShow}
