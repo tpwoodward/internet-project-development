@@ -2,6 +2,7 @@
 
 #header {
   height: 100vh;
+  min-height: 630px;
   padding: 30vh 50px;
 }
 
@@ -10,6 +11,18 @@
 #help {
   height: 100vh;
   padding: 20vh 80px;
+}
+
+#articles {
+  min-height: 580px;
+}
+
+#your-health {
+  min-height: 800px;
+}
+
+#help {
+  min-height: 720px;
 }
 
 .mainSect {
@@ -293,6 +306,9 @@
 @media (max-width: 1120px) {
   .lgSection {
     display: none;
+  }
+  .parallax-inner {
+    transform: translate3d(0,0,0) !important;
   }
 }
 
