@@ -16,7 +16,6 @@ function SubNav() {
             <Link
               className="navbar-brand sub"
               to="/"
-              onClick={() => window.scrollTo(0, 0)}
             >
               <img src={logo} className="App-logo" alt="logo" />
             </Link>
@@ -27,7 +26,6 @@ function SubNav() {
               <Link
                 className="nav-link"
                 to="/"
-                onClick={() => window.scrollTo(0, 0)}
               >
                 Return
               </Link>
