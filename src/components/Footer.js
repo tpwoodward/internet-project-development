@@ -10,20 +10,26 @@ function Footer() {
     <footer className="App-footer">
       <p className="text-center">
         <a
-          href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fthehealthlab.netlify.app%2F"
+          href="https://www.facebook.com/sharer/sharer.php?u=https%3A//thehealthlab.netlify.app"
           className="buttonSocial"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <FaFacebookF />
         </a>
         <a
-          href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fthehealthlab.netlify.app%2F"
+          href="https://twitter.com/intent/tweet?text=Check%20out%20The%20Health%20Lab!%20It%20has%20introductory%20articles%20on%20health%20and%20fitness%20as%20well%20as%20calculators%20for%20your%20BMI,%20body%20fat%20percentage%20and%20calorie%20requirements!%0A%0Ahttps%3A//thehealthlab.netlify.app"
           className="buttonSocial"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <FaTwitter />
         </a>
         <a
-          href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fthehealthlab.netlify.app%2F"
+          href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//thehealthlab.netlify.app&title=&summary=&source="
           className="buttonSocial"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <FaLinkedinIn />
         </a>
