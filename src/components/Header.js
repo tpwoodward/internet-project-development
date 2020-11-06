@@ -14,7 +14,7 @@ function Header() {
         <Parallax className="scrolling-section" y={[60, -50]}>
         <img
               className="logoImg"
-              src="the-health-lab-wordmark.svg"
+              src="wordmark.svg"
               alt="The Health Lab wordmark"
             />
            </Parallax>
