@@ -288,19 +288,15 @@
 
 /* media queries */
 
-@media (max-width: 1300px) {
+@media (max-width: 1120px) {
   .lgSection {
     display: none;
   }
 }
 
-@media (max-width: 1700px) {
+@media (max-width: 1620px) {
   .mainSect {
-    background-image: none;
-  }
-
-  .App-footer, .navbar, .navbar-brand {
-    background-color: rgb(245, 245, 245);
-
-  }
+    background-size: cover;
+    background-position: center;
+    }
 }
